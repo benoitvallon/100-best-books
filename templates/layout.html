@@ -3,10 +3,20 @@
   <head>
     <title>Browse the Bokklubben World Library</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    {% assets "scss_all" %}
+      <link rel=stylesheet type=text/css href="{{ ASSET_URL }}">
+    {% endassets %}
+    {% assets "js_all" %}
+      <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
   </head>
   <body>
-    {% block content %}
-    {% endblock %}
+    {% include 'nav.html' %}
+
+    <div class="container">
+      {% block content %}
+      {% endblock %}
+    </div>
   </body>
 </html>
