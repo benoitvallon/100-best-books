@@ -4,3 +4,7 @@
 
     .cover-image {
       max-width: 100px; }
+
+      .alert {
+        margin-bottom: 20px;
+        margin-top: 20px; }

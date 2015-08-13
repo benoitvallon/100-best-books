@@ -17,4 +17,7 @@ An example of your config file could be:
 # configuration
 DEBUG = True
 ISBNDB_KEY = 'MY_FAKE_KEY'
+SECRET_KEY = 'your session key'
+USERNAME = 'username'
+PASSWORD = 'password'
 ```
