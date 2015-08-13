@@ -1,3 +1,6 @@
 @import 'bootstrap.min.css'; 
   body {
     padding-top: 60px; }
+
+    .cover-image {
+      max-width: 100px; }
