@@ -114,6 +114,32 @@ def home():
 
   return render_template('home.html', books= books)
 
+@app.route('/home')
+def home2():
+  books = []
+  # Open/close a file
+  fileOpen = open("books.csv", "r")
+  fileData = fileOpen.readlines()
+
+  for line in fileData:
+    line = line.split(';')
+    print(line)
+    book = {
+      'title': line[0].decode('utf8'),
+      'author': line[1].decode('utf8'),
+      'link': '',
+      'pages': line[6].decode('utf8'),
+      'imageLink': 'images/' + line[7].decode('utf8')
+    }
+    if line[7]:
+      book['link'] = line[8].decode('utf8')
+
+    books.append(book)
+
+  fileOpen.close()
+
+  return render_template('home.html', books= books)
+
 @app.route('/admin', methods=['GET', 'POST'])
 def login():
   error = None
