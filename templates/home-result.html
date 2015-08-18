@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="row text-center">
+    <div class="col-md-6 col-md-offset-3">
+      <h1>If you read {{ pages_read_per_day }} pages per day, it will take you {{ number_of_days_to_end }} days to read all of the books.</h1>
+      <h1>If you start today you will finish on {{ finished_date.strftime("%A, the %-d %B %Y") }}</h1>
+      <div>
+        <a class="twitter-share-button"
+            href="https://twitter.com/intent/tweet?text={{ tweeter_message }}">
+        Tweet</a>
+        <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/"
+            data-layout="button_count"></div>
+      </div>
+      <a href="/" class="">Change your reading pace</a>
+    </div>
+  </div>
+{% endblock %}
