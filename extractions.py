@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, current_app
+from flask import Blueprint, render_template, flash, current_app
 import wikipedia
 import urllib2
 import re
@@ -30,6 +30,8 @@ def extractFromCsv():
       book['link'] = line[8].decode('utf8')
 
     books.append(book)
+
+  flash('%d book(s) have been extracted from the .csv file' % len(books))
 
   formattedJson = json.dumps(books, sort_keys=True, indent=2, separators=(',', ': '))
   # Open/close a file
