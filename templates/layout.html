@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="{% if home == True %}home{% endif %}" lang="en">
   <head>
     <title>Browse the Bokklubben World Library</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,7 @@
       <script type="text/javascript" src="{{ ASSET_URL }}"></script>
     {% endassets %}
   </head>
-  <body>
+  <body class="transparent">
     {% include 'nav.html' %}
 
 

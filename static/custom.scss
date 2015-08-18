@@ -3,18 +3,40 @@
 @import 'lib/bootstrap-sass/assets/stylesheets/bootstrap';
 
 body {
-  padding-top: 100px;
+  margin-top: 100px;
 }
 
 .cover-image {
   max-width: 100px;
 }
 
+
 .alert {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
+
 .book-item {
   height: 300px;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+}
+
+.home {
+  background: url('/static/library.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  body {
+    color: white;
+  }
 }

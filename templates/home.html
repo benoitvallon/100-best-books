@@ -1,6 +1,16 @@
 {% extends "layout.html" %}
 {% block content %}
   <div class="row text-center">
-    <h1>How much time<br>would it take you<br>to read<br>the best 100 books of all times?</h1>
+    <div class="col-md-6 col-md-offset-3">
+      <h1>How long would it take you<br>to read<br>the best 100 books of all times?</h1>
+      <form action="{{ url_for('home') }}" method="post">
+        <div class="form-group">
+          <label for="numberOfPage">How many pages would you read per day?</label>
+          <input type="text" name="number-of-pages" class="form-control input-lg" id="numberOfPage" placeholder="20">
+        </div>
+
+        <button type="submit" value="NumberOfPages" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </div>
 {% endblock %}

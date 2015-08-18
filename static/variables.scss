@@ -369,7 +369,7 @@ $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #fff !default;
 $navbar-default-bg:                $gray-darker !default;
-$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-border:            transparent !default;
 
 // Navbar links
 $navbar-default-link-color:                #fff !default;
@@ -395,7 +395,7 @@ $navbar-default-toggle-border-color:       transparent !default;
 // Reset inverted navbar basics
 $navbar-inverse-color:                      #fff !default;
 $navbar-inverse-bg:                         $brand-primary !default;
-$navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-border:                     transparent !default;
 
 // Inverted navbar links
 $navbar-inverse-link-color:                 #fff !default;

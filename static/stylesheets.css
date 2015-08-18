@@ -6030,7 +6030,7 @@ tbody.collapse.in {
 /* line 397, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
   background-color: #222222;
-  border-color: #121212;
+  border-color: transparent;
 }
 /* line 401, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
@@ -6079,7 +6079,7 @@ tbody.collapse.in {
 /* line 453, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #121212;
+  border-color: transparent;
 }
 /* line 462, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
@@ -6131,7 +6131,7 @@ tbody.collapse.in {
 /* line 531, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse {
   background-color: #2780E3;
-  border-color: #1967be;
+  border-color: transparent;
 }
 /* line 535, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
@@ -6190,11 +6190,11 @@ tbody.collapse.in {
 @media (max-width: 767px) {
   /* line 607, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #1967be;
+    border-color: transparent;
   }
   /* line 610, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #1967be;
+    background-color: transparent;
   }
   /* line 613, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
@@ -8771,7 +8771,7 @@ button.close {
 }
 /* line 5 */
 body {
-  padding-top: 100px;
+  margin-top: 100px;
 }
 
 /* line 9 */
@@ -8779,13 +8779,36 @@ body {
   max-width: 100px;
 }
 
-/* line 13 */
+/* line 14 */
 .alert {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 18 */
+/* line 20 */
 .book-item {
   height: 300px;
+}
+
+/* line 24 */
+.transparent {
+  background-color: transparent;
+}
+
+/* line 28 */
+.navbar-transparent {
+  background-color: transparent;
+}
+
+/* line 32 */
+.home {
+  background: url("/static/library.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+/* line 39 */
+.home body {
+  color: white;
 }
