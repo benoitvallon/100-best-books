@@ -16,7 +16,7 @@ assets.url = app.static_url_path
 scss = Bundle('custom.scss', filters='scss', output='stylesheets.css')
 assets.register('scss_all', scss)
 
-js = Bundle('jquery.js', 'bootstrap.min.js', 'custom.js', filters='jsmin', output='javascripts.js')
+js = Bundle('lib/jquery/dist/jquery.js', 'lib/bootstrap-sass/assets/javascripts/bootstrap.min.js', 'custom.js', filters='jsmin', output='javascripts.js')
 assets.register('js_all', js)
 
 def requestWikipedia(page):
