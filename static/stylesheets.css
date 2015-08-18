@@ -5602,7 +5602,7 @@ tbody.collapse.in {
 /* line 11, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 100px;
   margin-bottom: 21px;
   border: 1px solid transparent;
 }
@@ -5761,10 +5761,10 @@ tbody.collapse.in {
 /* line 163, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand {
   float: left;
-  padding: 14.5px 15px;
+  padding: 39.5px 15px;
   font-size: 19px;
   line-height: 21px;
-  height: 50px;
+  height: 100px;
 }
 /* line 170, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand:hover, .navbar-brand:focus {
@@ -5787,8 +5787,8 @@ tbody.collapse.in {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 33px;
+  margin-bottom: 33px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -5818,7 +5818,7 @@ tbody.collapse.in {
 
 /* line 232, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav {
-  margin: 7.25px -15px;
+  margin: 19.75px -15px;
 }
 /* line 235, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav > li > a {
@@ -5863,8 +5863,8 @@ tbody.collapse.in {
   }
   /* line 272, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav > li > a {
-    padding-top: 14.5px;
-    padding-bottom: 14.5px;
+    padding-top: 39.5px;
+    padding-bottom: 39.5px;
   }
 }
 
@@ -5877,8 +5877,8 @@ tbody.collapse.in {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 3.5px;
-  margin-bottom: 3.5px;
+  margin-top: 28.5px;
+  margin-bottom: 28.5px;
 }
 @media (min-width: 768px) {
   /* line 472, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -5983,24 +5983,24 @@ tbody.collapse.in {
 
 /* line 343, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn {
-  margin-top: 3.5px;
-  margin-bottom: 3.5px;
+  margin-top: 28.5px;
+  margin-bottom: 28.5px;
 }
 /* line 346, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
-  margin-top: 9.5px;
-  margin-bottom: 9.5px;
+  margin-top: 34.5px;
+  margin-bottom: 34.5px;
 }
 /* line 349, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn {
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 39px;
+  margin-bottom: 39px;
 }
 
 /* line 359, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-text {
-  margin-top: 14.5px;
-  margin-bottom: 14.5px;
+  margin-top: 39.5px;
+  margin-bottom: 39.5px;
 }
 @media (min-width: 768px) {
   /* line 359, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
@@ -8771,7 +8771,7 @@ button.close {
 }
 /* line 5 */
 body {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 /* line 9 */
