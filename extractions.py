@@ -39,7 +39,7 @@ def extractFromCsv():
   fileData = fileOpen.write(formattedJson)
   fileOpen.close()
 
-  return render_template('home.html', books= books)
+  return render_template('list.html', books= books)
 
 
 def requestWikipedia(page):
@@ -126,4 +126,4 @@ def extractFromApis():
   fileData = fileOpen.write(formattedJson)
   fileOpen.close()
 
-  return render_template('home.html', books= books)
+  return render_template('list.html', books= books)

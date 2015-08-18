@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="row text-center">
+    <h1>Book list</h1>
+    {% for book in books %}
+      <div class="col-md-3 book-item">
+        <div>
+          {{ book.title }} - {{ book.author }}
+          <a href="{{ book.link }}" target="_blank"><span class="glyphicon glyphicon-education" aria-hidden="true"></span></a>
+        </div>
+        <div>
+          {{ book.description }}
+        </div>
+        <img src="{{ url_for('static', filename=book.imageLink) }}" class="cover-image">
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

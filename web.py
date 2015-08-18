@@ -31,5 +31,20 @@ def home():
 
   return render_template('home.html', books= books)
 
+@app.route('/list')
+def list():
+  # Open/close a file
+  fileOpen = open("books.json", "r")
+  fileData = fileOpen.read()
+  fileOpen.close()
+
+  books = json.loads(fileData)
+
+  return render_template('list.html', books= books)
+
+@app.route('/whatisit')
+def whatisit():
+  return render_template('whatisit.html')
+
 if __name__ == '__main__':
   app.run(debug=True)
