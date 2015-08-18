@@ -1,212 +1,702 @@
 [
   {
     "author": "Chinua Achebe",
-    "description": "vi, 56 p. ;",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0582601096.jpg",
-    "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
+    "imageLink": "images/things-fall-apart.jpg",
+    "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
+    "pages": "209",
     "title": "Things Fall Apart"
   },
   {
     "author": "Hans Christian Andersen",
-    "description": "8.0\"x10.2\"x0.9\"; 1.9 lb; 198 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/1841353582.jpg",
-    "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.",
+    "imageLink": "images/fairy-tales.jpg",
+    "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
+    "pages": "784",
     "title": "Fairy tales"
   },
   {
     "author": "Dante Alighieri",
-    "description": "336 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0140448217.jpg",
-    "link": "https://en.wikipedia.org/wiki/The_Divine_Comedy",
+    "imageLink": "images/the-divine-comedy.jpg",
+    "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
+    "pages": "928",
     "title": "The Divine Comedy"
   },
   {
-    "author": "",
-    "description": "xxxiv, 122 p. : ill. ; 23 cm.",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0804717117.jpg",
-    "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
-    "title": "Epic of Gilgamesh"
+    "author": "Unknown",
+    "imageLink": "images/the-epic-of-gilgamesh.jpg",
+    "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
+    "pages": "160",
+    "title": "The Epic Of Gilgamesh"
   },
   {
-    "author": "",
-    "description": "5.4\"x8.3\"x0.5\"; 0.5 lb; 147 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0891375414.jpg",
-    "link": "https://en.wikipedia.org/wiki/Book_of_Job",
-    "title": "Book of Job"
+    "author": "Unknown",
+    "imageLink": "images/the-book-of-job.jpg",
+    "link": "https://en.wikipedia.org/wiki/Book_of_Job\n",
+    "pages": "176",
+    "title": "The Book Of Job"
   },
   {
-    "author": "",
-    "description": "200 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/8952747208.jpg",
-    "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
+    "author": "Unknown",
+    "imageLink": "images/one-thousand-and-one-nights.jpg",
+    "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
+    "pages": "288",
     "title": "One Thousand and One Nights"
   },
   {
-    "author": "",
-    "description": "xii, 389 p., [1] leaf of plates : maps ; 24 cm.",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/031320814X.jpg",
-    "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga",
+    "author": "Unknown",
+    "imageLink": "images/njals-saga.jpg",
+    "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n",
+    "pages": "384",
     "title": "Nj\u00e1l's Saga"
   },
   {
     "author": "Jane Austen",
-    "description": null,
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0748901043.jpg",
-    "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+    "imageLink": "images/pride-and-prejudice.jpg",
+    "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
+    "pages": "226",
     "title": "Pride and Prejudice"
   },
   {
     "author": "Honor\u00e9 de Balzac",
-    "description": "5.3\"x8.0\"x0.7\"; 0.7 lb; 231 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0543894177.jpg",
-    "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot",
+    "imageLink": "images/le-pere-goriot.jpg",
+    "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n",
+    "pages": "443",
     "title": "Le P\u00e8re Goriot"
   },
   {
     "author": "Samuel Beckett",
-    "description": "xliii, 476 p. ; 22 cm.",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0375400702.jpg",
-    "link": "https://en.wikipedia.org/wiki/Molloy_(novel)",
-    "title": "Molloy, Malone Dies, The Unnamable, a trilogy"
+    "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
+    "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
+    "pages": "256",
+    "title": "Molloy, Malone Dies, The Unnamable, the trilogy"
   },
   {
     "author": "Giovanni Boccaccio",
-    "description": "308 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/1404301313.jpg",
-    "link": "https://en.wikipedia.org/wiki/The_Decameron",
+    "imageLink": "images/the-decameron.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
+    "pages": "1024",
     "title": "The Decameron"
   },
   {
     "author": "Jorge Luis Borges",
-    "description": "279 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/950040205X.jpg",
-    "link": "https://en.wikipedia.org/wiki/Ficciones",
+    "imageLink": "images/ficciones.jpg",
+    "link": "https://en.wikipedia.org/wiki/Ficciones\n",
+    "pages": "224",
     "title": "Ficciones"
   },
   {
     "author": "Emily Bront\u00eb",
-    "description": "6.0\"x9.0\"x0.7\"; 1.1 lb; 298 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/1480046531.jpg",
-    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights",
+    "imageLink": "images/wuthering-heights.jpg",
+    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
+    "pages": "342",
     "title": "Wuthering Heights"
   },
   {
     "author": "Albert Camus",
-    "description": "32 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0760705844.jpg",
-    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)",
+    "imageLink": "images/l-etranger.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
+    "pages": "185",
     "title": "The Stranger"
   },
   {
     "author": "Paul Celan",
-    "description": "4.7\"x7.2\"x0.2\"; 0.3 lb; 68 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/2715214189.jpg",
-    "link": "",
+    "imageLink": "images/poems-paul-celan.jpg",
+    "link": "\n",
+    "pages": "320",
     "title": "Poems"
   },
   {
     "author": "Louis-Ferdinand C\u00e9line",
-    "description": "216 p. : ill. ; 23 cm.",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/071538449X.jpg",
-    "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night",
+    "imageLink": "images/voyage-au-bout-de-la-nuit.jpg",
+    "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
+    "pages": "505",
     "title": "Journey to the End of the Night"
   },
   {
     "author": "Miguel de Cervantes",
-    "description": "7.1\"x6.6\"x0.9\"; 512 pages; 0.6 lb",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0451528905.jpg",
-    "link": "https://en.wikipedia.org/wiki/Don_Quixote",
-    "title": "Don Quixote"
+    "imageLink": "images/don-quijote-de-la-mancha.jpg",
+    "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
+    "pages": "1056",
+    "title": "Don Quijote De La Mancha"
   },
   {
     "author": "Geoffrey Chaucer",
-    "description": "48 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0486410374.jpg",
-    "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
+    "imageLink": "images/the-canterbury-tales.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales\n",
+    "pages": "544",
     "title": "The Canterbury Tales"
   },
   {
     "author": "Anton Chekhov",
-    "description": "6.1\"x9.1\"x1.6\"; 1.8 lb; 460 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/054807139X.jpg",
-    "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov",
+    "imageLink": "images/stories-of-anton-chekhov.jpg",
+    "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov\n",
+    "pages": "194",
     "title": "Stories"
   },
   {
     "author": "Joseph Conrad",
-    "description": "4.2\"x6.7\"x0.9\"; 0.6 lb; 553 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/2070385655.jpg",
-    "link": "https://en.wikipedia.org/wiki/Nostromo",
+    "imageLink": "images/nostromo.jpg",
+    "link": "https://en.wikipedia.org/wiki/Nostromo\n",
+    "pages": "320",
     "title": "Nostromo"
   },
   {
     "author": "Charles Dickens",
-    "description": "6.0\"x9.0\"x1.4\"; 2.3 lb; 640 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/1613823045.jpg",
-    "link": "https://en.wikipedia.org/wiki/Great_Expectations",
+    "imageLink": "images/great-expectations.jpg",
+    "link": "https://en.wikipedia.org/wiki/Great_Expectations\n",
+    "pages": "194",
     "title": "Great Expectations"
   },
   {
     "author": "Denis Diderot",
-    "description": "4.3\"x6.9\"x0.8\"; 0.5 lb; 370 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/2070367630.jpg",
-    "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist",
+    "imageLink": "images/jacques-the-fatalist.jpg",
+    "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n",
+    "pages": "596",
     "title": "Jacques the Fatalist"
   },
   {
     "author": "Alfred D\u00f6blin",
-    "description": "5.0\"x8.0\"x1.2\"; 1.1 lb; 586 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/3538053448.jpg",
-    "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz",
+    "imageLink": "images/berlin-alexanderplatz.jpg",
+    "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz\n",
+    "pages": "600",
     "title": "Berlin Alexanderplatz"
   },
   {
     "author": "Fyodor Dostoevsky",
-    "description": "318 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/8126139374.jpg",
-    "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment",
+    "imageLink": "images/crime-and-punishment.jpg",
+    "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment\n",
+    "pages": "551",
     "title": "Crime and Punishment"
   },
   {
     "author": "Fyodor Dostoevsky",
-    "description": "5.5\"x8.4\"x1.3\"; 1.0 lb; 621 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/5170211570.jpg",
-    "link": "https://en.wikipedia.org/wiki/The_Idiot",
+    "imageLink": "images/the-idiot.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Idiot\n",
+    "pages": "656",
     "title": "The Idiot"
   },
   {
     "author": "Fyodor Dostoevsky",
-    "description": "80 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/1420804820.jpg",
-    "link": "https://en.wikipedia.org/wiki/The_Possessed_(novel)",
+    "imageLink": "images/the-possessed.jpg",
+    "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n",
+    "pages": "768",
     "title": "The Possessed"
   },
   {
     "author": "Fyodor Dostoevsky",
-    "description": "896 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/159308045X.jpg",
-    "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
+    "imageLink": "images/the-brothers-karamazov.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n",
+    "pages": "824",
     "title": "The Brothers Karamazov"
   },
   {
     "author": "George Eliot",
-    "description": "6 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/0141804513.jpg",
-    "link": "https://en.wikipedia.org/wiki/Middlemarch",
+    "imageLink": "images/middlemarch.jpg",
+    "link": "https://en.wikipedia.org/wiki/Middlemarch\n",
+    "pages": "800",
     "title": "Middlemarch"
   },
   {
     "author": "Ralph Ellison",
-    "description": null,
-    "imageLink": "http://covers.openlibrary.org/b/isbn/956291190X.jpg",
-    "link": "https://en.wikipedia.org/wiki/Invisible_Man",
+    "imageLink": "images/invisible-man.jpg",
+    "link": "https://en.wikipedia.org/wiki/Invisible_Man\n",
+    "pages": "581",
     "title": "Invisible Man"
   },
   {
     "author": "Euripides",
-    "description": "5.0\"x7.7\"x0.3\"; 0.1 lb; 80 pages",
-    "imageLink": "http://covers.openlibrary.org/b/isbn/1420926446.jpg",
-    "link": "https://en.wikipedia.org/wiki/Medea_(play)",
+    "imageLink": "images/medea.jpg",
+    "link": "https://en.wikipedia.org/wiki/Medea_(play)\n",
+    "pages": "104",
     "title": "Medea"
+  },
+  {
+    "author": "William Faulkner",
+    "imageLink": "images/absalom-absalom.jpg",
+    "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!\n",
+    "pages": "313",
+    "title": "Absalom, Absalom!"
+  },
+  {
+    "author": "William Faulkner",
+    "imageLink": "images/the-sound-and-the-fury.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n",
+    "pages": "326",
+    "title": "The Sound and the Fury"
+  },
+  {
+    "author": "Gustave Flaubert",
+    "imageLink": "images/madame-bovary.jpg",
+    "link": "https://en.wikipedia.org/wiki/Madame_Bovary\n",
+    "pages": "528",
+    "title": "Madame Bovary"
+  },
+  {
+    "author": "Gustave Flaubert",
+    "imageLink": "images/l-education-sentimentale.jpg",
+    "link": "https://en.wikipedia.org/wiki/Sentimental_Education\n",
+    "pages": "606",
+    "title": "Sentimental Education"
+  },
+  {
+    "author": "Federico Garc\u00eda Lorca",
+    "imageLink": "images/gypsy-ballads.jpg",
+    "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads\n",
+    "pages": "218",
+    "title": "Gypsy Ballads"
+  },
+  {
+    "author": "Gabriel Garc\u00eda M\u00e1rquez",
+    "imageLink": "images/one-hundred-years-of-solitude.jpg",
+    "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n",
+    "pages": "417",
+    "title": "One Hundred Years of Solitude"
+  },
+  {
+    "author": "Gabriel Garc\u00eda M\u00e1rquez",
+    "imageLink": "images/love-in-the-time-of-cholera.jpg",
+    "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n",
+    "pages": "368",
+    "title": "Love in the Time of Cholera"
+  },
+  {
+    "author": "Johann Wolfgang von Goethe",
+    "imageLink": "images/faust.jpg",
+    "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
+    "pages": "158",
+    "title": "Faust"
+  },
+  {
+    "author": "Nikolai Gogol",
+    "imageLink": "images/dead-souls.jpg",
+    "link": "https://en.wikipedia.org/wiki/Dead_Souls\n",
+    "pages": "432",
+    "title": "Dead Souls"
+  },
+  {
+    "author": "G\u00fcnter Grass",
+    "imageLink": "images/the-tin-drum.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Tin_Drum\n",
+    "pages": "600",
+    "title": "The Tin Drum"
+  },
+  {
+    "author": "Jo\u00e3o Guimar\u00e3es Rosa",
+    "imageLink": "images/the-devil-to-pay-in-the-backlands.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n",
+    "pages": "494",
+    "title": "The Devil to Pay in the Backlands"
+  },
+  {
+    "author": "Knut Hamsun",
+    "imageLink": "images/hunger.jpg",
+    "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n",
+    "pages": "176",
+    "title": "Hunger"
+  },
+  {
+    "author": "Ernest Hemingway",
+    "imageLink": "images/the-old-man-and-the-sea.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n",
+    "pages": "128",
+    "title": "The Old Man and the Sea"
+  },
+  {
+    "author": "Homer",
+    "imageLink": "images/the-iliad-of-homer.jpg",
+    "link": "https://en.wikipedia.org/wiki/Iliad\n",
+    "pages": "608",
+    "title": "Iliad"
+  },
+  {
+    "author": "Homer",
+    "imageLink": "images/the-odyssey-of-homer.jpg",
+    "link": "https://en.wikipedia.org/wiki/Odyssey\n",
+    "pages": "374",
+    "title": "Odyssey"
+  },
+  {
+    "author": "Henrik Ibsen",
+    "imageLink": "images/a-Dolls-house.jpg",
+    "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
+    "pages": "68",
+    "title": "A Doll's House"
+  },
+  {
+    "author": "James Joyce",
+    "imageLink": "images/ulysses.jpg",
+    "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)\n",
+    "pages": "228",
+    "title": "Ulysses"
+  },
+  {
+    "author": "Franz Kafka",
+    "imageLink": "images/stories-of-franz-kafka.jpg",
+    "link": "https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories\n",
+    "pages": "488",
+    "title": "Stories"
+  },
+  {
+    "author": "Franz Kafka",
+    "imageLink": "images/the-trial.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Trial\n",
+    "pages": "160",
+    "title": "The Trial"
+  },
+  {
+    "author": "Franz Kafka",
+    "imageLink": "images/the-castle.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)\n",
+    "pages": "352",
+    "title": "The Castle"
+  },
+  {
+    "author": "K\u0101lid\u0101sa",
+    "imageLink": "images/the-recognition-of-shakuntala.jpg",
+    "link": "https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam\n",
+    "pages": "147",
+    "title": "The recognition of Shakuntala"
+  },
+  {
+    "author": "Yasunari Kawabata",
+    "imageLink": "images/the-sound-of-the-mountain.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain\n",
+    "pages": "288",
+    "title": "The Sound of the Mountain"
+  },
+  {
+    "author": "Nikos Kazantzakis",
+    "imageLink": "images/zorba-the-greek.jpg",
+    "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek\n",
+    "pages": "368",
+    "title": "Zorba the Greek"
+  },
+  {
+    "author": "D. H. Lawrence",
+    "imageLink": "images/sons-and-lovers.jpg",
+    "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers\n",
+    "pages": "432",
+    "title": "Sons and Lovers"
+  },
+  {
+    "author": "Halld\u00f3r Laxness",
+    "imageLink": "images/independent-people.jpg",
+    "link": "https://en.wikipedia.org/wiki/Independent_People\n",
+    "pages": "470",
+    "title": "Independent People"
+  },
+  {
+    "author": "Giacomo Leopardi",
+    "imageLink": "images/poems-giacomo-leopardi.jpg",
+    "link": "\n",
+    "pages": "184",
+    "title": "Poems"
+  },
+  {
+    "author": "Doris Lessing",
+    "imageLink": "images/the-golden-notebook.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook\n",
+    "pages": "688",
+    "title": "The Golden Notebook"
+  },
+  {
+    "author": "Astrid Lindgren",
+    "imageLink": "images/pippi-longstocking.jpg",
+    "link": "https://en.wikipedia.org/wiki/Pippi_Longstocking\n",
+    "pages": "160",
+    "title": "Pippi Longstocking"
+  },
+  {
+    "author": "Lu Xun",
+    "imageLink": "images/diary-of-a-madman.jpg",
+    "link": "https://en.wikipedia.org/wiki/A_Madman%27s_Diary\n",
+    "pages": "389",
+    "title": "Diary of a Madman"
+  },
+  {
+    "author": "Naguib Mahfouz",
+    "imageLink": "images/children-of-gebelawi.jpg",
+    "link": "https://en.wikipedia.org/wiki/Children_of_Gebelawi\n",
+    "pages": "355",
+    "title": "Children of Gebelawi"
+  },
+  {
+    "author": "Thomas Mann",
+    "imageLink": "images/buddenbrooks.jpg",
+    "link": "https://en.wikipedia.org/wiki/Buddenbrooks\n",
+    "pages": "736",
+    "title": "Buddenbrooks"
+  },
+  {
+    "author": "Thomas Mann",
+    "imageLink": "images/the-magic-mountain.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Magic_Mountain\n",
+    "pages": "720",
+    "title": "The Magic Mountain"
+  },
+  {
+    "author": "Herman Melville",
+    "imageLink": "images/moby-dick.jpg",
+    "link": "https://en.wikipedia.org/wiki/Moby-Dick\n",
+    "pages": "378",
+    "title": "Moby Dick"
+  },
+  {
+    "author": "Michel de Montaigne",
+    "imageLink": "images/essais.jpg",
+    "link": "https://en.wikipedia.org/wiki/Essays_(Montaigne)\n",
+    "pages": "404",
+    "title": "Essays"
+  },
+  {
+    "author": "Elsa Morante",
+    "imageLink": "images/history.jpg",
+    "link": "https://en.wikipedia.org/wiki/History_(novel)\n",
+    "pages": "600",
+    "title": "History"
+  },
+  {
+    "author": "Toni Morrison",
+    "imageLink": "images/beloved.jpg",
+    "link": "https://en.wikipedia.org/wiki/Beloved_(novel)\n",
+    "pages": "321",
+    "title": "Beloved"
+  },
+  {
+    "author": "Murasaki Shikibu",
+    "imageLink": "images/the-tale-of-genji.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Tale_of_Genji\n",
+    "pages": "1360",
+    "title": "The Tale of Genji"
+  },
+  {
+    "author": "Robert Musil",
+    "imageLink": "images/the-man-without-qualities.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities\n",
+    "pages": "365",
+    "title": "The Man Without Qualities"
+  },
+  {
+    "author": "Vladimir Nabokov",
+    "imageLink": "images/lolita.jpg",
+    "link": "https://en.wikipedia.org/wiki/Lolita\n",
+    "pages": "317",
+    "title": "Lolita"
+  },
+  {
+    "author": "George Orwell",
+    "imageLink": "images/nineteen-eighty-four.jpg",
+    "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\n",
+    "pages": "272",
+    "title": "Nineteen Eighty-Four"
+  },
+  {
+    "author": "Ovid",
+    "imageLink": "images/the-metamorphoses-of-ovid.jpg",
+    "link": "https://en.wikipedia.org/wiki/Metamorphoses\n",
+    "pages": "576",
+    "title": "Metamorphoses"
+  },
+  {
+    "author": "Fernando Pessoa",
+    "imageLink": "images/the-book-of-disquiet.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet\n",
+    "pages": "272",
+    "title": "The Book of Disquiet"
+  },
+  {
+    "author": "Edgar Allan Poe",
+    "imageLink": "images/tales-and-poems-of-edgar-allan-poe.jpg",
+    "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales\n",
+    "pages": "842",
+    "title": "Tales"
+  },
+  {
+    "author": "Marcel Proust",
+    "imageLink": "images/a-la-recherche-du-temps-perdu.jpg",
+    "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time\n",
+    "pages": "2408",
+    "title": "In Search of Lost Time"
+  },
+  {
+    "author": "Fran\u00e7ois Rabelais",
+    "imageLink": "images/gargantua-and-pantagruel.jpg",
+    "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel\n",
+    "pages": "623",
+    "title": "Gargantua and Pantagruel"
+  },
+  {
+    "author": "Juan Rulfo",
+    "imageLink": "images/pedro-p\u00e1ramo.jpg",
+    "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo\n",
+    "pages": "124",
+    "title": "Pedro P\u00e1ramo"
+  },
+  {
+    "author": "Rumi",
+    "imageLink": "images/the-masnavi.jpg",
+    "link": "https://en.wikipedia.org/wiki/Masnavi\n",
+    "pages": "438",
+    "title": "The Masnavi"
+  },
+  {
+    "author": "Salman Rushdie",
+    "imageLink": "images/midnights-children.jpg",
+    "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children\n",
+    "pages": "536",
+    "title": "Midnight's Children"
+  },
+  {
+    "author": "Saadi",
+    "imageLink": "images/bostan.jpg",
+    "link": "https://en.wikipedia.org/wiki/Bustan_(book)\n",
+    "pages": "298",
+    "title": "Bostan"
+  },
+  {
+    "author": "Tayeb Salih",
+    "imageLink": "images/season-of-migration-to-the-north.jpg",
+    "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n",
+    "pages": "139",
+    "title": "Season of Migration to the North"
+  },
+  {
+    "author": "Jos\u00e9 Saramago",
+    "imageLink": "images/blindness.jpg",
+    "link": "https://en.wikipedia.org/wiki/Blindness_(novel)\n",
+    "pages": "352",
+    "title": "Blindness"
+  },
+  {
+    "author": "William Shakespeare",
+    "imageLink": "images/hamlet.jpg",
+    "link": "https://en.wikipedia.org/wiki/Hamlet\n",
+    "pages": "432",
+    "title": "Hamlet"
+  },
+  {
+    "author": "William Shakespeare",
+    "imageLink": "images/king-lear.jpg",
+    "link": "https://en.wikipedia.org/wiki/King_Lear\n",
+    "pages": "384",
+    "title": "King Lear"
+  },
+  {
+    "author": "William Shakespeare",
+    "imageLink": "images/othello.jpg",
+    "link": "https://en.wikipedia.org/wiki/Othello\n",
+    "pages": "314",
+    "title": "Othello"
+  },
+  {
+    "author": "Sophocles",
+    "imageLink": "images/oedipus-the-king.jpg",
+    "link": "https://en.wikipedia.org/wiki/Oedipus_the_King\n",
+    "pages": "88",
+    "title": "Oedipus the King"
+  },
+  {
+    "author": "Stendhal",
+    "imageLink": "images/le-rouge-et-le-noir.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black\n",
+    "pages": "576",
+    "title": "The Red and the Black"
+  },
+  {
+    "author": "Laurence Sterne",
+    "imageLink": "images/the-life-and-opinions-of-tristram-shandy.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman\n",
+    "pages": "640",
+    "title": "The Life And Opinions of Tristram Shandy"
+  },
+  {
+    "author": "Italo Svevo",
+    "imageLink": "images/confessions-of-zeno.jpg",
+    "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience\n",
+    "pages": "412",
+    "title": "Confessions of Zeno"
+  },
+  {
+    "author": "Jonathan Swift",
+    "imageLink": "images/gullivers-travels.jpg",
+    "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels\n",
+    "pages": "178",
+    "title": "Gulliver's Travels"
+  },
+  {
+    "author": "Leo Tolstoy",
+    "imageLink": "images/war-and-peace.jpg",
+    "link": "https://en.wikipedia.org/wiki/War_and_Peace\n",
+    "pages": "1296",
+    "title": "War and Peace"
+  },
+  {
+    "author": "Leo Tolstoy",
+    "imageLink": "images/anna-karenina.jpg",
+    "link": "https://en.wikipedia.org/wiki/Anna_Karenina\n",
+    "pages": "864",
+    "title": "Anna Karenina"
+  },
+  {
+    "author": "Leo Tolstoy",
+    "imageLink": "images/the-death-of-ivan-ilyich.jpg",
+    "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich\n",
+    "pages": "92",
+    "title": "The Death of Ivan Ilyich"
+  },
+  {
+    "author": "Mark Twain",
+    "imageLink": "images/the-adventures-of-huckleberry-finn.jpg",
+    "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n",
+    "pages": "224",
+    "title": "The Adventures of Huckleberry Finn"
+  },
+  {
+    "author": "Valmiki",
+    "imageLink": "images/ramayana.jpg",
+    "link": "https://en.wikipedia.org/wiki/Ramayana\n",
+    "pages": "152",
+    "title": "Ramayana"
+  },
+  {
+    "author": "Virgil",
+    "imageLink": "images/the-aeneid.jpg",
+    "link": "https://en.wikipedia.org/wiki/Aeneid\n",
+    "pages": "442",
+    "title": "The Aeneid"
+  },
+  {
+    "author": "Vyasa",
+    "imageLink": "images/the-mahab-harata.jpg",
+    "link": "https://en.wikipedia.org/wiki/Mahabharata\n",
+    "pages": "276",
+    "title": "Mahabharata"
+  },
+  {
+    "author": "Walt Whitman",
+    "imageLink": "images/leaves-of-grass.jpg",
+    "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass\n",
+    "pages": "152",
+    "title": "Leaves of Grass"
+  },
+  {
+    "author": "Virginia Woolf",
+    "imageLink": "images/mrs-dalloway.jpg",
+    "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway\n",
+    "pages": "216",
+    "title": "Mrs Dalloway"
+  },
+  {
+    "author": "Virginia Woolf",
+    "imageLink": "images/to-the-lighthouse.jpg",
+    "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse\n",
+    "pages": "209",
+    "title": "To the Lighthouse"
+  },
+  {
+    "author": "Marguerite Yourcenar",
+    "imageLink": "images/memoirs-of-hadrian.jpg",
+    "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n",
+    "pages": "408",
+    "title": "Memoirs of Hadrian"
   }
 ]
