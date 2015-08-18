@@ -8812,3 +8812,25 @@ body {
 .home body {
   color: white;
 }
+
+/* line 46 */
+a.navbar-brand {
+  padding-top: 18px;
+  text-decoration: none;
+}
+
+/* line 51 */
+.navbar-brand > img {
+  width: 60px;
+  display: inline-block;
+}
+
+/* line 56 */
+a.navbar-brand .logo-text {
+  font-size: 30px;
+  top: 6px;
+  position: relative;
+  left: 12px;
+  color: white;
+  font-weight: 100;
+}

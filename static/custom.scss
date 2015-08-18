@@ -40,3 +40,24 @@ body {
     color: white;
   }
 }
+
+// navbar and brand logo
+
+a.navbar-brand {
+  padding-top: 18px;
+  text-decoration: none;
+}
+
+.navbar-brand > img {
+  width: 60px;
+  display: inline-block;
+}
+
+a.navbar-brand .logo-text {
+  font-size: 30px;
+  top: 6px;
+  position: relative;
+  left: 12px;
+  color: white;
+  font-weight: 100;
+}
