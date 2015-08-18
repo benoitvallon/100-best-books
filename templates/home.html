@@ -1,19 +1,20 @@
 {% extends "layout.html" %}
 {% block content %}
-  <h1>Welcome to the Bokklubben World Library</h1>
-  <p>Bokklubben World Library is a series of classical books, mostly novels, published by the Norwegian Book Club since 2002. It is based on a list of the 100 best books, as proposed by one hundred writers from fifty-four different countries, compiled and organized in 2002 by the Book Club. This list endeavors to reflect world literature, with books from all countries, cultures, and time periods.</p>
+  <div class="row">
+    <h1>Welcome to the Bokklubben World Library</h1>
+    <p>Bokklubben World Library is a series of classical books, mostly novels, published by the Norwegian Book Club since 2002. It is based on a list of the 100 best books, as proposed by one hundred writers from fifty-four different countries, compiled and organized in 2002 by the Book Club. This list endeavors to reflect world literature, with books from all countries, cultures, and time periods.</p>
 
-  <ul>
-  {% for book in books %}
-    <li>
-      <div>
-        {{ book.title }} - {{ book.author }} - <a href="{{ book.link }}" target="_blank">{{ book.link }}</a>
+    {% for book in books %}
+      <div class="col-md-3 book-item">
+        <div>
+          {{ book.title }} - {{ book.author }} -
+          <a href="{{ book.link }}" target="_blank"><span class="glyphicon glyphicon-education" aria-hidden="true"></span></a>
+        </div>
+        <div>
+          {{ book.description }}
+        </div>
+        <img src="{{ url_for('static', filename=book.imageLink) }}" class="cover-image">
       </div>
-      <div>
-        {{ book.description }}
-      </div>
-      <img src="{{ book.imageLink }}" class="cover-image">
-    </li>
-  {% endfor %}
-  </ul>
+    {% endfor %}
+  </div>
 {% endblock %}

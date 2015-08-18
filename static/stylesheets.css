@@ -8,3 +8,6 @@
       .alert {
         margin-bottom: 20px;
         margin-top: 20px; }
+
+        .book-item {
+          height: 300px; }
