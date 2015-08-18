@@ -76,8 +76,8 @@ def getIsbndbBestResult(isbndbXml):
 
   return results[0]
 
-@app.route('/extract')
-def extract():
+@app.route('/extract-from-apis')
+def extractFromApis():
   bok = requestWikipedia("Bokklubben_World_Library")
   htmlPage = BeautifulSoup(bok.html(), 'html.parser')
   table = htmlPage.select(".wikitable")[0]
@@ -114,16 +114,16 @@ def home():
 
   return render_template('home.html', books= books)
 
-@app.route('/home')
-def home2():
-  books = []
+@app.route('/extract-from-csv')
+def extractFromCsv():
   # Open/close a file
   fileOpen = open("books.csv", "r")
   fileData = fileOpen.readlines()
+  fileOpen.close()
 
+  books = []
   for line in fileData:
     line = line.split(';')
-    print(line)
     book = {
       'title': line[0].decode('utf8'),
       'author': line[1].decode('utf8'),
@@ -136,6 +136,10 @@ def home2():
 
     books.append(book)
 
+  formattedJson = json.dumps(books, sort_keys=True, indent=2, separators=(',', ': '))
+  # Open/close a file
+  fileOpen = open("books.json", "w")
+  fileData = fileOpen.write(formattedJson)
   fileOpen.close()
 
   return render_template('home.html', books= books)
