@@ -1,17 +1,18 @@
 {% extends "layout.html" %}
 {% block content %}
   <div class="row text-center">
-    <div class="col-md-6 col-md-offset-3">
-      <h1>If you read {{ pages_read_per_day }} pages per day, it will take you {{ number_of_days_to_end }} days to read all of the books.</h1>
-      <h1>If you start today you will finish on {{ finished_date.strftime("%A, the %-d %B %Y") }}</h1>
-      <div>
-        <a class="twitter-share-button"
-            href="https://twitter.com/intent/tweet?text={{ tweeter_message }}">
+    <div class="col-md-10 col-md-offset-1">
+      <h1>If you read <strong>{{ pages_read_per_day }} pages</strong> per day, it will take you <strong>{{ number_of_days_to_end }} days</strong> to read all of them.</h1>
+      <h1>If you start today you will finish on <strong>{{ finished_date.strftime("%A, the %-d %B %Y") }}</strong>.</h1>
+      <div class="social-buttons">
+        <a class="twitter-share-button" data-url="http://www..co" data-count="none"
+            href="https://twitter.com/intent/tweet?text={{ tweeter_message }}" data-size="large">
         Tweet</a>
-        <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/"
-            data-layout="button_count"></div>
+        <div class="fb-share-button" data-href="http://www..co"
+            data-layout="button">
+        </div>
       </div>
-      <a href="/" class="">Change your reading pace</a>
+      <a href="/" class="back-to-home">Change your reading pace</a>
     </div>
   </div>
 {% endblock %}

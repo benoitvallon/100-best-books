@@ -2,6 +2,8 @@
 @import 'variables';
 @import 'lib/bootstrap-sass/assets/stylesheets/bootstrap';
 
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+
 body {
   margin-top: 100px;
 }
@@ -39,6 +41,36 @@ body {
   body {
     color: white;
   }
+  .row {
+    margin-top: 60px;
+  }
+  h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .social-buttons {
+    margin-top: 30px;
+  }
+  .back-to-home {
+    margin-top: 50px;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+  }
+  .fb_iframe_widget {
+    display: block;
+    transform: scale(1.4);
+    margin-top: 15px;
+  }
+}
+
+strong {
+  font-weight: 400;
+}
+
+.row {
+  margin-bottom: 45px;
+  margin-top: 30px;
 }
 
 // navbar and brand logo

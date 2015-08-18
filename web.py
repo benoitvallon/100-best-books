@@ -52,7 +52,7 @@ def home():
     today = datetime.now()
     finished_date = today + timedelta(days=number_of_days_to_end)
 
-    tweeter_message = urllib2.quote('The 100 Best Books of all times would take me ' + str(number_of_days_to_end) + ' days to read. Wanna know how long it would take you too!! www.bokkluben.co' .encode('UTF-8'))
+    tweeter_message = urllib2.quote('The 100 Best Books of all times would take me ' + str(number_of_days_to_end) + ' days to read. Wanna know how long it would take you too!!' .encode('UTF-8'))
 
     return render_template('home-result.html', home= home,
         pages_read_per_day= pages_read_per_day, tweeter_message= tweeter_message,

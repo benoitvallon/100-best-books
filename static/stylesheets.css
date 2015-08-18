@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
 /* line 9, /D1/web/users/benoit/bokklubben-world-library/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -8769,38 +8770,38 @@ button.close {
     display: none !important;
   }
 }
-/* line 5 */
+/* line 7 */
 body {
   margin-top: 100px;
 }
 
-/* line 9 */
+/* line 11 */
 .cover-image {
   max-width: 100px;
 }
 
-/* line 14 */
+/* line 16 */
 .alert {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 20 */
+/* line 22 */
 .book-item {
   height: 300px;
 }
 
-/* line 24 */
+/* line 26 */
 .transparent {
   background-color: transparent;
 }
 
-/* line 28 */
+/* line 30 */
 .navbar-transparent {
   background-color: transparent;
 }
 
-/* line 32 */
+/* line 34 */
 .home {
   background: url("/static/library.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8808,24 +8809,61 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 39 */
+/* line 41 */
 .home body {
   color: white;
 }
+/* line 44 */
+.home .row {
+  margin-top: 60px;
+}
+/* line 47 */
+.home h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+/* line 51 */
+.home .social-buttons {
+  margin-top: 30px;
+}
+/* line 54 */
+.home .back-to-home {
+  margin-top: 50px;
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+}
+/* line 60 */
+.home .fb_iframe_widget {
+  display: block;
+  transform: scale(1.4);
+  margin-top: 15px;
+}
 
-/* line 46 */
+/* line 67 */
+strong {
+  font-weight: 400;
+}
+
+/* line 71 */
+.row {
+  margin-bottom: 45px;
+  margin-top: 30px;
+}
+
+/* line 78 */
 a.navbar-brand {
   padding-top: 18px;
   text-decoration: none;
 }
 
-/* line 51 */
+/* line 83 */
 .navbar-brand > img {
   width: 60px;
   display: inline-block;
 }
 
-/* line 56 */
+/* line 88 */
 a.navbar-brand .logo-text {
   font-size: 30px;
   top: 6px;
