@@ -5,7 +5,7 @@ login_routes = Blueprint('login_routes', __name__)
 @login_routes.route('/admin', methods=['GET', 'POST'])
 def login():
   error = None
-  print 'start'
+
   if request.method == 'POST':
     if request.form['username'] != current_app.config['USERNAME']:
       error = 'Invalid username'
@@ -13,13 +13,13 @@ def login():
       error = 'Invalid password'
     else:
       session['logged_in'] = True
-      flash('You are logged in')
+      flash('You are logged in', 'success')
       return redirect(url_for('home'))
-  print 'end'
+
   return render_template('login.html', error=error)
 
 @login_routes.route('/logout')
 def logout():
   session.pop('logged_in', None)
-  flash('You are logged out')
+  flash('You are logged out', 'success')
   return redirect(url_for('home'))
