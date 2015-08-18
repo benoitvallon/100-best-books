@@ -118,6 +118,8 @@ def extractFromApis():
     book = requestIsbndb(book)
     books.append(book)
 
+  flash('%d book(s) have been extracted from wikipedia and other APIs' % len(books))
+
   formattedJson = json.dumps(books, sort_keys=True, indent=2, separators=(',', ': '))
   # Open/close a file
   fileOpen = open("books.json", "w")
