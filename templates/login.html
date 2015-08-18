@@ -8,7 +8,7 @@
       <strong>Error:</strong>
       {{ error }}
     {% endif %}
-    <form action="{{ url_for('login') }}" method="post">
+    <form action="{{ url_for('login_routes.login') }}" method="post">
       <div class="form-group">
         <label for="userName">Username</label>
         <input type="text" name="username" class="form-control" id="userName" placeholder="Username">

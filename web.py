@@ -7,9 +7,12 @@ import re
 import json
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
+from login import login_routes
 
 app = Flask(__name__)
 app.config.from_envvar('BOKKLUBBEN_SETTINGS', silent=True)
+
+app.register_blueprint(login_routes)
 
 assets = Environment(app)
 assets.url = app.static_url_path
@@ -143,28 +146,6 @@ def extractFromCsv():
   fileOpen.close()
 
   return render_template('home.html', books= books)
-
-@app.route('/admin', methods=['GET', 'POST'])
-def login():
-  error = None
-  print 'start'
-  if request.method == 'POST':
-    if request.form['username'] != app.config['USERNAME']:
-      error = 'Invalid username'
-    elif request.form['password'] != app.config['PASSWORD']:
-      error = 'Invalid password'
-    else:
-      session['logged_in'] = True
-      flash('You are logged in')
-      return redirect(url_for('home'))
-  print 'end'
-  return render_template('login.html', error=error)
-
-@app.route('/logout')
-def logout():
-  session.pop('logged_in', None)
-  flash('You are logged out')
-  return redirect(url_for('home'))
 
 if __name__ == '__main__':
   app.run(debug=True)
