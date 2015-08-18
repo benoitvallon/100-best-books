@@ -1,2 +1,3 @@
 /static/.webassets-cache/*
 settings.cfg
+/static/lib/*

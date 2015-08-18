@@ -21,3 +21,11 @@ SECRET_KEY = 'your session key'
 USERNAME = 'username'
 PASSWORD = 'password'
 ```
+
+# Installation
+
+This project project depends on some libraries, so you must install them via bower before running it.
+
+```shell
+bower install
+```

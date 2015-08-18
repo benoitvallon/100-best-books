@@ -1,0 +1,20 @@
+{
+  "name": "bokklubben-world-library",
+  "version": "0.0.1",
+  "homepage": "https://github.com/benoitvallon/bokklubben-world-library",
+  "authors": [
+    "Benoit VALLON <benoitvallon@gmail.com>"
+  ],
+  "description": "An website to play with the Bokklubben World Library which is a series of the 100 best classical books",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}
