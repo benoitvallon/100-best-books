@@ -1,5 +1,6 @@
-// import prebuild bootstrap theme
-@import 'bootstrap.min.css';
+// import variables to build bootstrap theme
+@import 'variables';
+@import 'lib/bootstrap-sass/assets/stylesheets/bootstrap';
 
 body {
   padding-top: 60px;

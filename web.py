@@ -13,7 +13,7 @@ app.config.from_envvar('BOKKLUBBEN_SETTINGS', silent=True)
 
 assets = Environment(app)
 assets.url = app.static_url_path
-scss = Bundle('custom.scss', filters='pyscss', output='stylesheets.css')
+scss = Bundle('custom.scss', filters='scss', output='stylesheets.css')
 assets.register('scss_all', scss)
 
 js = Bundle('jquery.js', 'bootstrap.min.js', 'custom.js', filters='jsmin', output='javascripts.js')
