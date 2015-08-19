@@ -8,3 +8,4 @@ Flask==0.10.1
 Flask-Assets==0.10
 pudb==2015.3
 wikipedia==1.4.0
+requests==2.1.0
