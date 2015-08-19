@@ -35,9 +35,9 @@ def extractFromCsv():
 
   formattedJson = json.dumps(books, sort_keys=True, indent=2, separators=(',', ': '))
   # Open/close a file
-  fileOpen = open("books.json", "w")
-  fileData = fileOpen.write(formattedJson)
-  fileOpen.close()
+  # fileOpen = open("books.json", "w")
+  # fileData = fileOpen.write(formattedJson)
+  # fileOpen.close()
 
   return render_template('list.html', books= books)
 
@@ -58,7 +58,6 @@ def requestIsbndb(book):
   isbndbXml = urllib2.urlopen("http://isbndb.com/api/v2/xml/" + current_app.config['ISBNDB_KEY'] + "/books?q=" + pageNameEncoded).read()
 
   bestResult = getIsbndbBestResult(isbndbXml)
-
 
   book['description'] = bestResult.find('physical_description_text').text
   isbn10 = bestResult.find('isbn10').text
@@ -101,8 +100,8 @@ def getIsbndbBestResult(isbndbXml):
 
 @extractions_routes.route('/extract-from-apis')
 def extractFromApis():
-  bok = requestWikipedia("Bokklubben_World_Library")
-  htmlPage = BeautifulSoup(bok.html(), 'html.parser')
+  request = requestWikipedia("Bokklubben_World_Library")
+  htmlPage = BeautifulSoup(request.html(), 'html.parser')
   table = htmlPage.select(".wikitable")[0]
   lines = table.select('tr')
 
@@ -121,9 +120,9 @@ def extractFromApis():
   flash('%d book(s) have been extracted from wikipedia and other APIs' % len(books))
 
   formattedJson = json.dumps(books, sort_keys=True, indent=2, separators=(',', ': '))
-  # Open/close a file
-  fileOpen = open("books.json", "w")
-  fileData = fileOpen.write(formattedJson)
-  fileOpen.close()
+  # # Open/close a file
+  # fileOpen = open("books.json", "w")
+  # fileData = fileOpen.write(formattedJson)
+  # fileOpen.close()
 
   return render_template('list.html', books= books)
