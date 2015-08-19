@@ -1,4 +1,4 @@
 /static/.webassets-cache/*
-settings.cfg
+settings.py
 /static/lib/*
 *.pyc

@@ -4,18 +4,21 @@
     <title>Browse the Bokklubben World Library</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% assets "scss_all" %}
-      <link rel=stylesheet type=text/css href="{{ ASSET_URL }}">
-    {% endassets %}
-    {% assets "js_all" %}
-      <script type="text/javascript" src="{{ ASSET_URL }}"></script>
-    {% endassets %}
+    {% if config['ENVIRONMENT'] == 'development' %}
+      {% assets "scss_all" %}
+        <link rel=stylesheet type=text/css href="{{ ASSET_URL }}">
+      {% endassets %}
+      {% assets "js_all" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+      {% endassets %}
+    {% else %}
+      <link rel=stylesheet type=text/css href="/static/stylesheets.css">
+      <script type="text/javascript" src="/static/javascripts.js"></script>
+    {% endif %}
   </head>
   <body class="transparent">
     {% include 'facebook.script.html' %}
     {% include 'nav.html' %}
-
-
 
     <div class="container">
       {% with messages = get_flashed_messages(with_categories=true) %}
