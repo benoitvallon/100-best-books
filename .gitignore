@@ -2,3 +2,4 @@
 settings.py
 /static/lib/*
 *.pyc
+lib/*
