@@ -10,15 +10,15 @@
       </button>
       <a class="navbar-brand" href="/">
         <img src="{{ url_for('static', filename='logo.png') }}"
-            alt="Bokklubben world library logo">
-        <span class="logo-text">Bokklubben Library</span>
+            alt="100 Best Books logo">
+        <span class="logo-text">100 Best Books</span>
       </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ url_for('whatisit') }}">Bokklubben Library?</a></li>
+        <li><a href="{{ url_for('whatisit') }}">Who did this list?</a></li>
         <li><a href="{{ url_for('list') }}">List of books</a></li>
         {% if session.logged_in %}
           <li class="dropdown">

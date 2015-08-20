@@ -11,7 +11,7 @@ from extractions import extractions_routes
 
 app = Flask(__name__)
 app.config.from_object('settings')
-app.config.from_envvar('BOKKLUBBEN_SETTINGS', silent=True)
+app.config.from_envvar('HUNDREDBESTBOOKS_SETTINGS', silent=True)
 
 app.register_blueprint(login_routes)
 app.register_blueprint(extractions_routes)
