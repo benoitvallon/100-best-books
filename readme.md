@@ -32,3 +32,31 @@ This project project depends on some libraries, so you must install them via bow
 ```shell
 bower install
 ```
+
+# Run the app
+
+## In the local environment
+
+Launch the python web server with the following command and visit http://localhost:5000.
+
+```shell
+python web.py
+```
+
+## In the local Google App Engine environment
+
+Launch the Google App Engine web server with the following command and visit http://localhost:8080.
+
+```shell
+dev_appserver.py .
+```
+
+Access the local Google App Engine console at http://localhost:8000/instances.
+
+# Push the modifications to Google App Engine
+
+Before pushing the code to Google App Engine you need to edit and change the configuration setting 'ENVIRONMENT' to "production".
+
+```
+appcfg.py -A hundred-best-books update .
+```
