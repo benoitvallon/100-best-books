@@ -1718,10 +1718,10 @@ html {
 
 /* line 27, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.42857;
-  color: #333333;
+  color: #49220a;
   background-color: #fff;
 }
 
@@ -1737,12 +1737,12 @@ textarea {
 
 /* line 48, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #2780E3;
+  color: #bb6b00;
   text-decoration: none;
 }
 /* line 52, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #165ba8;
+  color: #bb6b00;
   text-decoration: underline;
 }
 /* line 58, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1771,7 +1771,7 @@ img {
 
 /* line 86, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 .img-rounded {
-  border-radius: 0;
+  border-radius: 6px;
 }
 
 /* line 93, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1779,8 +1779,8 @@ img {
   padding: 4px;
   line-height: 1.42857;
   background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 0;
+  border: 1px solid #ecf0f1;
+  border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1799,7 +1799,7 @@ hr {
   margin-top: 21px;
   margin-bottom: 21px;
   border: 0;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #ecf0f1;
 }
 
 /* line 125, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1832,7 +1832,7 @@ hr {
 /* line 9, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1;
   color: inherit;
@@ -1854,7 +1854,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: #b4bcc2;
 }
 
 /* line 24, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
@@ -1955,7 +1955,7 @@ small,
 /* line 83, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 mark,
 .mark {
-  background-color: #FF7518;
+  background-color: #791205;
   padding: .2em;
 }
 
@@ -2001,18 +2001,18 @@ mark,
 
 /* line 102, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 .text-muted {
-  color: #999999;
+  color: #b4bcc2;
 }
 
 /* line 5, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #2780E3;
+  color: #49220a;
 }
 
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #1967be;
+  color: #1c0d04;
 }
 
 /* line 5, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
@@ -2066,64 +2066,64 @@ a.text-danger:focus {
 
 /* line 5, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #2780E3;
+  background-color: #49220a;
 }
 
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #1967be;
+  background-color: #1c0d04;
 }
 
 /* line 5, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-success {
-  background-color: #3FB618;
+  background-color: #bb6b00;
 }
 
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-success:hover,
 a.bg-success:focus {
-  background-color: #2f8912;
+  background-color: #884e00;
 }
 
 /* line 5, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-info {
-  background-color: #9954BB;
+  background-color: #934b00;
 }
 
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-info:hover,
 a.bg-info:focus {
-  background-color: #7e3f9d;
+  background-color: #603100;
 }
 
 /* line 5, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-warning {
-  background-color: #FF7518;
+  background-color: #791205;
 }
 
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-warning:hover,
 a.bg-warning:focus {
-  background-color: #e45c00;
+  background-color: #480b03;
 }
 
 /* line 5, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-danger {
-  background-color: #FF0039;
+  background-color: #73473e;
 }
 
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-danger:hover,
 a.bg-danger:focus {
-  background-color: #cc002e;
+  background-color: #52332c;
 }
 
 /* line 138, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 .page-header {
   padding-bottom: 9.5px;
   margin: 42px 0 21px;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid transparent;
 }
 
 /* line 149, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
@@ -2211,7 +2211,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #999999;
+  border-bottom: 1px dotted #b4bcc2;
 }
 
 /* line 235, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
@@ -2224,7 +2224,7 @@ blockquote {
   padding: 10.5px 21px;
   margin: 0 0 21px;
   font-size: 18.75px;
-  border-left: 5px solid #e6e6e6;
+  border-left: 5px solid #ecf0f1;
 }
 /* line 250, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 blockquote p:last-child,
@@ -2239,7 +2239,7 @@ blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.42857;
-  color: #999999;
+  color: #b4bcc2;
 }
 /* line 265, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 blockquote footer:before,
@@ -2253,7 +2253,7 @@ blockquote .small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #e6e6e6;
+  border-right: 5px solid #ecf0f1;
   border-left: 0;
   text-align: right;
 }
@@ -2297,7 +2297,7 @@ code {
   font-size: 90%;
   color: #c7254e;
   background-color: #f9f2f4;
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 /* line 24, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss */
@@ -2306,7 +2306,7 @@ kbd {
   font-size: 90%;
   color: #fff;
   background-color: #333;
-  border-radius: 0;
+  border-radius: 3px;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 /* line 32, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss */
@@ -2326,10 +2326,10 @@ pre {
   line-height: 1.42857;
   word-break: break-all;
   word-wrap: break-word;
-  color: #333333;
-  background-color: #f5f5f5;
+  color: #7b8a8b;
+  background-color: #ecf0f1;
   border: 1px solid #ccc;
-  border-radius: 0;
+  border-radius: 4px;
 }
 /* line 55, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_code.scss */
 pre code {
@@ -3474,7 +3474,7 @@ table {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #999999;
+  color: #b4bcc2;
   text-align: left;
 }
 
@@ -3499,12 +3499,12 @@ th {
   padding: 8px;
   line-height: 1.42857;
   vertical-align: top;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ecf0f1;
 }
 /* line 41, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #ecf0f1;
 }
 /* line 50, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table > caption + thead > tr:first-child > th,
@@ -3517,7 +3517,7 @@ th {
 }
 /* line 57, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table > tbody + tbody {
-  border-top: 2px solid #ddd;
+  border-top: 2px solid #ecf0f1;
 }
 /* line 62, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table .table {
@@ -3536,7 +3536,7 @@ th {
 
 /* line 88, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table-bordered {
-  border: 1px solid #ddd;
+  border: 1px solid #ecf0f1;
 }
 /* line 94, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table-bordered > thead > tr > th,
@@ -3545,7 +3545,7 @@ th {
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > th,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #ddd;
+  border: 1px solid #ecf0f1;
 }
 /* line 101, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table-bordered > thead > tr > th,
@@ -3560,7 +3560,7 @@ th {
 
 /* line 125, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
 .table-hover > tbody > tr:hover {
-  background-color: #f5f5f5;
+  background-color: #ecf0f1;
 }
 
 /* line 135, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
@@ -3589,13 +3589,13 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.active,
 .table > tfoot > tr.active > td,
 .table > tfoot > tr.active > th {
-  background-color: #f5f5f5;
+  background-color: #ecf0f1;
 }
 
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover, .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr.active:hover > th {
-  background-color: #e8e8e8;
+  background-color: #dde4e6;
 }
 
 /* line 9, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
@@ -3609,13 +3609,13 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.success,
 .table > tfoot > tr.success > td,
 .table > tfoot > tr.success > th {
-  background-color: #3FB618;
+  background-color: #bb6b00;
 }
 
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover, .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr:hover > .success, .table-hover > tbody > tr.success:hover > th {
-  background-color: #379f15;
+  background-color: #a25c00;
 }
 
 /* line 9, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
@@ -3629,13 +3629,13 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.info,
 .table > tfoot > tr.info > td,
 .table > tfoot > tr.info > th {
-  background-color: #9954BB;
+  background-color: #934b00;
 }
 
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.info:hover,
 .table-hover > tbody > tr > th.info:hover, .table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr.info:hover > th {
-  background-color: #8d46b0;
+  background-color: #7a3e00;
 }
 
 /* line 9, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
@@ -3649,13 +3649,13 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.warning,
 .table > tfoot > tr.warning > td,
 .table > tfoot > tr.warning > th {
-  background-color: #FF7518;
+  background-color: #791205;
 }
 
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.warning:hover,
 .table-hover > tbody > tr > th.warning:hover, .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr:hover > .warning, .table-hover > tbody > tr.warning:hover > th {
-  background-color: #fe6600;
+  background-color: #610e04;
 }
 
 /* line 9, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
@@ -3669,13 +3669,13 @@ table th[class*="col-"] {
 .table > tfoot > tr > th.danger,
 .table > tfoot > tr.danger > td,
 .table > tfoot > tr.danger > th {
-  background-color: #FF0039;
+  background-color: #73473e;
 }
 
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_table-row.scss */
 .table-hover > tbody > tr > td.danger:hover,
 .table-hover > tbody > tr > th.danger:hover, .table-hover > tbody > tr.danger:hover > td, .table-hover > tbody > tr:hover > .danger, .table-hover > tbody > tr.danger:hover > th {
-  background-color: #e60033;
+  background-color: #623d35;
 }
 
 /* line 171, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
@@ -3690,7 +3690,7 @@ table th[class*="col-"] {
     margin-bottom: 15.75px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #ddd;
+    border: 1px solid #ecf0f1;
   }
   /* line 183, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss */
   .table-responsive > .table {
@@ -3752,9 +3752,9 @@ legend {
   margin-bottom: 21px;
   font-size: 22.5px;
   line-height: inherit;
-  color: #333333;
+  color: #49220a;
   border: 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid transparent;
 }
 
 /* line 32, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -3812,22 +3812,22 @@ output {
   padding-top: 11px;
   font-size: 15px;
   line-height: 1.42857;
-  color: #333333;
+  color: #49220a;
 }
 
 /* line 114, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-control {
   display: block;
   width: 100%;
-  height: 43px;
-  padding: 10px 18px;
+  height: 45px;
+  padding: 10px 15px;
   font-size: 15px;
   line-height: 1.42857;
-  color: #333333;
+  color: #49220a;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 0;
+  border: 1px solid #dce4ec;
+  border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -3836,27 +3836,27 @@ output {
 }
 /* line 57, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .form-control:focus {
-  border-color: #66afe9;
+  border-color: #49220a;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(73, 34, 10, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(73, 34, 10, 0.6);
 }
 /* line 103, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control::-moz-placeholder {
-  color: #999999;
+  color: #acb6c0;
   opacity: 1;
 }
 /* line 107, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control:-ms-input-placeholder {
-  color: #999999;
+  color: #acb6c0;
 }
 /* line 108, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
 .form-control::-webkit-input-placeholder {
-  color: #999999;
+  color: #acb6c0;
 }
 /* line 140, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-  background-color: #e6e6e6;
+  background-color: #ecf0f1;
   opacity: 1;
 }
 /* line 147, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -3880,7 +3880,7 @@ input[type="search"] {
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
-    line-height: 43px;
+    line-height: 45px;
   }
   /* line 191, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   input[type="date"].input-sm, .input-group-sm > input[type="date"].form-control,
@@ -3901,7 +3901,7 @@ input[type="search"] {
   .input-group-sm > input[type="month"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="month"].btn, .input-group-sm
   input[type="month"] {
-    line-height: 31px;
+    line-height: 35px;
   }
   /* line 196, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   input[type="date"].input-lg, .input-group-lg > input[type="date"].form-control,
@@ -3922,7 +3922,7 @@ input[type="search"] {
   .input-group-lg > input[type="month"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="month"].btn, .input-group-lg
   input[type="month"] {
-    line-height: 64px;
+    line-height: 66px;
   }
 }
 /* line 209, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -4026,19 +4026,19 @@ input[type="checkbox"] {
 .input-sm, .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {
-  height: 31px;
-  padding: 5px 10px;
+  height: 35px;
+  padding: 6px 9px;
   font-size: 13px;
   line-height: 1.5;
-  border-radius: 0;
+  border-radius: 3px;
 }
 
 /* line 79, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 select.input-sm, .input-group-sm > select.form-control,
 .input-group-sm > select.input-group-addon,
 .input-group-sm > .input-group-btn > select.btn {
-  height: 31px;
-  line-height: 31px;
+  height: 35px;
+  line-height: 35px;
 }
 
 /* line 84, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
@@ -4054,16 +4054,16 @@ select[multiple].input-sm,
 
 /* line 327, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm .form-control {
-  height: 31px;
-  padding: 5px 10px;
+  height: 35px;
+  padding: 6px 9px;
   font-size: 13px;
   line-height: 1.5;
-  border-radius: 0;
+  border-radius: 3px;
 }
 /* line 334, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm select.form-control {
-  height: 31px;
-  line-height: 31px;
+  height: 35px;
+  line-height: 35px;
 }
 /* line 338, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm textarea.form-control,
@@ -4072,9 +4072,9 @@ select[multiple].input-sm,
 }
 /* line 342, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm .form-control-static {
-  height: 31px;
+  height: 35px;
   min-height: 34px;
-  padding: 6px 10px;
+  padding: 7px 9px;
   font-size: 13px;
   line-height: 1.5;
 }
@@ -4083,19 +4083,19 @@ select[multiple].input-sm,
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 64px;
-  padding: 18px 30px;
+  height: 66px;
+  padding: 18px 27px;
   font-size: 19px;
   line-height: 1.33333;
-  border-radius: 0;
+  border-radius: 6px;
 }
 
 /* line 79, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
 .input-group-lg > .input-group-btn > select.btn {
-  height: 64px;
-  line-height: 64px;
+  height: 66px;
+  line-height: 66px;
 }
 
 /* line 84, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
@@ -4111,16 +4111,16 @@ select[multiple].input-lg,
 
 /* line 353, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-lg .form-control {
-  height: 64px;
-  padding: 18px 30px;
+  height: 66px;
+  padding: 18px 27px;
   font-size: 19px;
   line-height: 1.33333;
-  border-radius: 0;
+  border-radius: 6px;
 }
 /* line 360, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-lg select.form-control {
-  height: 64px;
-  line-height: 64px;
+  height: 66px;
+  line-height: 66px;
 }
 /* line 364, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-lg textarea.form-control,
@@ -4129,9 +4129,9 @@ select[multiple].input-lg,
 }
 /* line 368, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-lg .form-control-static {
-  height: 64px;
+  height: 66px;
   min-height: 40px;
-  padding: 19px 30px;
+  padding: 19px 27px;
   font-size: 19px;
   line-height: 1.33333;
 }
@@ -4142,7 +4142,7 @@ select[multiple].input-lg,
 }
 /* line 387, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .has-feedback .form-control {
-  padding-right: 53.75px;
+  padding-right: 56.25px;
 }
 
 /* line 392, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -4152,9 +4152,9 @@ select[multiple].input-lg,
   right: 0;
   z-index: 2;
   display: block;
-  width: 43px;
-  height: 43px;
-  line-height: 43px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
   text-align: center;
   pointer-events: none;
 }
@@ -4165,9 +4165,9 @@ select[multiple].input-lg,
 .input-group-lg > .input-group-btn > .btn + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
-  width: 64px;
-  height: 64px;
-  line-height: 64px;
+  width: 66px;
+  height: 66px;
+  line-height: 66px;
 }
 
 /* line 411, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -4176,9 +4176,9 @@ select[multiple].input-lg,
 .input-group-sm > .input-group-btn > .btn + .form-control-feedback,
 .input-group-sm + .form-control-feedback,
 .form-group-sm .form-control + .form-control-feedback {
-  width: 31px;
-  height: 31px;
-  line-height: 31px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
 }
 
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
@@ -4206,7 +4206,7 @@ select[multiple].input-lg,
 .has-success .input-group-addon {
   color: #fff;
   border-color: #fff;
-  background-color: #3FB618;
+  background-color: #bb6b00;
 }
 /* line 37, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-success .form-control-feedback {
@@ -4238,7 +4238,7 @@ select[multiple].input-lg,
 .has-warning .input-group-addon {
   color: #fff;
   border-color: #fff;
-  background-color: #FF7518;
+  background-color: #791205;
 }
 /* line 37, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-warning .form-control-feedback {
@@ -4270,7 +4270,7 @@ select[multiple].input-lg,
 .has-error .input-group-addon {
   color: #fff;
   border-color: #fff;
-  background-color: #FF0039;
+  background-color: #73473e;
 }
 /* line 37, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-error .form-control-feedback {
@@ -4291,7 +4291,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #b95619;
 }
 
 @media (min-width: 768px) {
@@ -4406,7 +4406,7 @@ select[multiple].input-lg,
 @media (min-width: 768px) {
   /* line 605, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .form-group-sm .control-label {
-    padding-top: 6px;
+    padding-top: 7px;
     font-size: 13px;
   }
 }
@@ -4423,10 +4423,10 @@ select[multiple].input-lg,
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 10px 18px;
+  padding: 10px 15px;
   font-size: 15px;
   line-height: 1.42857;
-  border-radius: 0;
+  border-radius: 4px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -4467,32 +4467,32 @@ a.btn.disabled, fieldset[disabled] a.btn {
 /* line 68, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
   color: #fff;
-  background-color: #222222;
-  border-color: #222222;
+  background-color: #95a5a6;
+  border-color: #95a5a6;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:focus, .btn-default.focus {
   color: #fff;
-  background-color: #090909;
-  border-color: black;
+  background-color: #798d8f;
+  border-color: #566566;
 }
 /* line 17, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:hover {
   color: #fff;
-  background-color: #090909;
-  border-color: #040404;
+  background-color: #798d8f;
+  border-color: #74898a;
 }
 /* line 22, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   color: #fff;
-  background-color: #090909;
-  border-color: #040404;
+  background-color: #798d8f;
+  border-color: #74898a;
 }
 /* line 29, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
   color: #fff;
-  background-color: black;
-  border-color: black;
+  background-color: #687b7c;
+  border-color: #566566;
 }
 /* line 37, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
@@ -4500,44 +4500,44 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 45, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  background-color: #222222;
-  border-color: #222222;
+  background-color: #95a5a6;
+  border-color: #95a5a6;
 }
 /* line 56, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
-  color: #222222;
+  color: #95a5a6;
   background-color: #fff;
 }
 
 /* line 71, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #2780E3;
-  border-color: #2780E3;
+  background-color: #49220a;
+  border-color: #49220a;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #1967be;
-  border-color: #10427b;
+  background-color: #1c0d04;
+  border-color: black;
 }
 /* line 17, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:hover {
   color: #fff;
-  background-color: #1967be;
-  border-color: #1862b5;
+  background-color: #1c0d04;
+  border-color: #130903;
 }
 /* line 22, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #1967be;
-  border-color: #1862b5;
+  background-color: #1c0d04;
+  border-color: #130903;
 }
 /* line 29, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #15569f;
-  border-color: #10427b;
+  background-color: black;
+  border-color: black;
 }
 /* line 37, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
@@ -4545,44 +4545,44 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 45, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #2780E3;
-  border-color: #2780E3;
+  background-color: #49220a;
+  border-color: #49220a;
 }
 /* line 56, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary .badge {
-  color: #2780E3;
+  color: #49220a;
   background-color: #fff;
 }
 
 /* line 75, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-success {
   color: #fff;
-  background-color: #3FB618;
-  border-color: #3FB618;
+  background-color: #bb6b00;
+  border-color: #bb6b00;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success:focus, .btn-success.focus {
   color: #fff;
-  background-color: #2f8912;
-  border-color: #184509;
+  background-color: #884e00;
+  border-color: #3c2200;
 }
 /* line 17, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success:hover {
   color: #fff;
-  background-color: #2f8912;
-  border-color: #2c8011;
+  background-color: #884e00;
+  border-color: #7e4800;
 }
 /* line 22, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
   color: #fff;
-  background-color: #2f8912;
-  border-color: #2c8011;
+  background-color: #884e00;
+  border-color: #7e4800;
 }
 /* line 29, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success:active:hover, .btn-success:active:focus, .btn-success:active.focus, .btn-success.active:hover, .btn-success.active:focus, .btn-success.active.focus, .open > .btn-success.dropdown-toggle:hover, .open > .btn-success.dropdown-toggle:focus, .open > .btn-success.dropdown-toggle.focus {
   color: #fff;
-  background-color: #24690e;
-  border-color: #184509;
+  background-color: #643900;
+  border-color: #3c2200;
 }
 /* line 37, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
@@ -4590,44 +4590,44 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 45, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
-  background-color: #3FB618;
-  border-color: #3FB618;
+  background-color: #bb6b00;
+  border-color: #bb6b00;
 }
 /* line 56, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success .badge {
-  color: #3FB618;
+  color: #bb6b00;
   background-color: #fff;
 }
 
 /* line 79, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-info {
   color: #fff;
-  background-color: #9954BB;
-  border-color: #9954BB;
+  background-color: #934b00;
+  border-color: #934b00;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:focus, .btn-info.focus {
   color: #fff;
-  background-color: #7e3f9d;
-  border-color: #522967;
+  background-color: #603100;
+  border-color: #140a00;
 }
 /* line 17, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:hover {
   color: #fff;
-  background-color: #7e3f9d;
-  border-color: #783c96;
+  background-color: #603100;
+  border-color: #562c00;
 }
 /* line 22, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #7e3f9d;
-  border-color: #783c96;
+  background-color: #603100;
+  border-color: #562c00;
 }
 /* line 29, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:active:hover, .btn-info:active:focus, .btn-info:active.focus, .btn-info.active:hover, .btn-info.active:focus, .btn-info.active.focus, .open > .btn-info.dropdown-toggle:hover, .open > .btn-info.dropdown-toggle:focus, .open > .btn-info.dropdown-toggle.focus {
   color: #fff;
-  background-color: #6a3484;
-  border-color: #522967;
+  background-color: #3c1f00;
+  border-color: #140a00;
 }
 /* line 37, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
@@ -4635,44 +4635,44 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 45, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
-  background-color: #9954BB;
-  border-color: #9954BB;
+  background-color: #934b00;
+  border-color: #934b00;
 }
 /* line 56, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info .badge {
-  color: #9954BB;
+  color: #934b00;
   background-color: #fff;
 }
 
 /* line 83, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-warning {
   color: #fff;
-  background-color: #FF7518;
-  border-color: #FF7518;
+  background-color: #791205;
+  border-color: #791205;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:focus, .btn-warning.focus {
   color: #fff;
-  background-color: #e45c00;
-  border-color: #983d00;
+  background-color: #480b03;
+  border-color: black;
 }
 /* line 17, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:hover {
   color: #fff;
-  background-color: #e45c00;
-  border-color: #da5800;
+  background-color: #480b03;
+  border-color: #3e0903;
 }
 /* line 22, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
   color: #fff;
-  background-color: #e45c00;
-  border-color: #da5800;
+  background-color: #480b03;
+  border-color: #3e0903;
 }
 /* line 29, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:active:hover, .btn-warning:active:focus, .btn-warning:active.focus, .btn-warning.active:hover, .btn-warning.active:focus, .btn-warning.active.focus, .open > .btn-warning.dropdown-toggle:hover, .open > .btn-warning.dropdown-toggle:focus, .open > .btn-warning.dropdown-toggle.focus {
   color: #fff;
-  background-color: #c04d00;
-  border-color: #983d00;
+  background-color: #260602;
+  border-color: black;
 }
 /* line 37, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
@@ -4680,44 +4680,44 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 45, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
-  background-color: #FF7518;
-  border-color: #FF7518;
+  background-color: #791205;
+  border-color: #791205;
 }
 /* line 56, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning .badge {
-  color: #FF7518;
+  color: #791205;
   background-color: #fff;
 }
 
 /* line 87, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-danger {
   color: #fff;
-  background-color: #FF0039;
-  border-color: #FF0039;
+  background-color: #73473e;
+  border-color: #73473e;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger:focus, .btn-danger.focus {
   color: #fff;
-  background-color: #cc002e;
-  border-color: #80001d;
+  background-color: #52332c;
+  border-color: #201411;
 }
 /* line 17, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger:hover {
   color: #fff;
-  background-color: #cc002e;
-  border-color: #c2002b;
+  background-color: #52332c;
+  border-color: #4b2e29;
 }
 /* line 22, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
   color: #fff;
-  background-color: #cc002e;
-  border-color: #c2002b;
+  background-color: #52332c;
+  border-color: #4b2e29;
 }
 /* line 29, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger:active:hover, .btn-danger:active:focus, .btn-danger:active.focus, .btn-danger.active:hover, .btn-danger.active:focus, .btn-danger.active.focus, .open > .btn-danger.dropdown-toggle:hover, .open > .btn-danger.dropdown-toggle:focus, .open > .btn-danger.dropdown-toggle.focus {
   color: #fff;
-  background-color: #a80026;
-  border-color: #80001d;
+  background-color: #3b2420;
+  border-color: #201411;
 }
 /* line 37, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
@@ -4725,18 +4725,18 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 45, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
-  background-color: #FF0039;
-  border-color: #FF0039;
+  background-color: #73473e;
+  border-color: #73473e;
 }
 /* line 56, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-danger .badge {
-  color: #FF0039;
+  color: #73473e;
   background-color: #fff;
 }
 
 /* line 96, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #2780E3;
+  color: #bb6b00;
   font-weight: normal;
   border-radius: 0;
 }
@@ -4752,30 +4752,30 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 115, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #165ba8;
+  color: #bb6b00;
   text-decoration: underline;
   background-color: transparent;
 }
 /* line 123, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
-  color: #999999;
+  color: #b4bcc2;
   text-decoration: none;
 }
 
 /* line 135, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
-  padding: 18px 30px;
+  padding: 18px 27px;
   font-size: 19px;
   line-height: 1.33333;
-  border-radius: 0;
+  border-radius: 6px;
 }
 
 /* line 139, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
-  padding: 5px 10px;
+  padding: 6px 9px;
   font-size: 13px;
   line-height: 1.5;
-  border-radius: 0;
+  border-radius: 3px;
 }
 
 /* line 143, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4783,7 +4783,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   padding: 1px 5px;
   font-size: 13px;
   line-height: 1.5;
-  border-radius: 0;
+  border-radius: 3px;
 }
 
 /* line 151, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4889,7 +4889,7 @@ tbody.collapse.in {
   background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0;
+  border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
@@ -4913,7 +4913,7 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857;
-  color: #333333;
+  color: #7b8a8b;
   white-space: nowrap;
 }
 
@@ -4921,7 +4921,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #fff;
-  background-color: #2780E3;
+  background-color: #49220a;
 }
 
 /* line 88, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -4929,12 +4929,12 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #2780E3;
+  background-color: #49220a;
 }
 
 /* line 103, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
-  color: #999999;
+  color: #b4bcc2;
 }
 /* line 110, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -4972,7 +4972,7 @@ tbody.collapse.in {
   padding: 3px 20px;
   font-size: 13px;
   line-height: 1.42857;
-  color: #999999;
+  color: #b4bcc2;
   white-space: nowrap;
 }
 
@@ -5203,13 +5203,13 @@ tbody.collapse.in {
 }
 /* line 175, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn:first-child:not(:last-child) {
-  border-top-right-radius: 0;
+  border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 /* line 179, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn:last-child:not(:first-child) {
-  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 4px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
@@ -5309,31 +5309,31 @@ tbody.collapse.in {
 
 /* line 73, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon {
-  padding: 10px 18px;
+  padding: 10px 15px;
   font-size: 15px;
   font-weight: normal;
   line-height: 1;
-  color: #333333;
+  color: #49220a;
   text-align: center;
-  background-color: #e6e6e6;
-  border: 1px solid #ccc;
-  border-radius: 0;
+  background-color: #ecf0f1;
+  border: 1px solid #dce4ec;
+  border-radius: 4px;
 }
 /* line 85, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon.input-sm,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .input-group-addon.btn {
-  padding: 5px 10px;
+  padding: 6px 9px;
   font-size: 13px;
-  border-radius: 0;
+  border-radius: 3px;
 }
 /* line 90, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon.input-lg,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .input-group-addon.btn {
-  padding: 18px 30px;
+  padding: 18px 27px;
   font-size: 19px;
-  border-radius: 0;
+  border-radius: 6px;
 }
 /* line 97, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon input[type="radio"],
@@ -5434,23 +5434,23 @@ tbody.collapse.in {
 /* line 23, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #e6e6e6;
+  background-color: #ecf0f1;
 }
 /* line 31, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li.disabled > a {
-  color: #999999;
+  color: #b4bcc2;
 }
 /* line 34, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
-  color: #999999;
+  color: #b4bcc2;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
 }
 /* line 46, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: #e6e6e6;
-  border-color: #2780E3;
+  background-color: #ecf0f1;
+  border-color: #bb6b00;
 }
 /* line 59, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav .nav-divider {
@@ -5466,7 +5466,7 @@ tbody.collapse.in {
 
 /* line 76, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ecf0f1;
 }
 /* line 78, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li {
@@ -5478,17 +5478,17 @@ tbody.collapse.in {
   margin-right: 2px;
   line-height: 1.42857;
   border: 1px solid transparent;
-  border-radius: 0 0 0 0;
+  border-radius: 4px 4px 0 0;
 }
 /* line 89, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li > a:hover {
-  border-color: #e6e6e6 #e6e6e6 #ddd;
+  border-color: #ecf0f1 #ecf0f1 #ecf0f1;
 }
 /* line 96, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: #49220a;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #ecf0f1;
   border-bottom-color: transparent;
   cursor: default;
 }
@@ -5499,7 +5499,7 @@ tbody.collapse.in {
 }
 /* line 122, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li > a {
-  border-radius: 0;
+  border-radius: 4px;
 }
 /* line 125, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li + li {
@@ -5508,7 +5508,7 @@ tbody.collapse.in {
 /* line 131, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #2780E3;
+  background-color: #49220a;
 }
 
 /* line 144, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
@@ -5558,7 +5558,7 @@ tbody.collapse.in {
 /* line 193, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
   margin-right: 0;
-  border-radius: 0;
+  border-radius: 4px;
 }
 /* line 199, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
@@ -5566,13 +5566,13 @@ tbody.collapse.in {
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs-justified > .active > a:focus,
 .nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #ddd;
+  border: 1px solid #ecf0f1;
 }
 @media (min-width: 768px) {
   /* line 206, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-    border-bottom: 1px solid #ddd;
-    border-radius: 0 0 0 0;
+    border-bottom: 1px solid #ecf0f1;
+    border-radius: 4px 4px 0 0;
   }
   /* line 210, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
@@ -5619,7 +5619,7 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar {
-    border-radius: 0;
+    border-radius: 4px;
   }
 }
 
@@ -5793,7 +5793,7 @@ tbody.collapse.in {
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 4px;
 }
 /* line 206, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-toggle:focus {
@@ -5878,8 +5878,8 @@ tbody.collapse.in {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 28.5px;
-  margin-bottom: 28.5px;
+  margin-top: 27.5px;
+  margin-bottom: 27.5px;
 }
 @media (min-width: 768px) {
   /* line 472, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -5976,21 +5976,21 @@ tbody.collapse.in {
 /* line 332, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
 /* line 343, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn {
-  margin-top: 28.5px;
-  margin-bottom: 28.5px;
+  margin-top: 27.5px;
+  margin-bottom: 27.5px;
 }
 /* line 346, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
-  margin-top: 34.5px;
-  margin-bottom: 34.5px;
+  margin-top: 32.5px;
+  margin-bottom: 32.5px;
 }
 /* line 349, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn {
@@ -6030,7 +6030,7 @@ tbody.collapse.in {
 }
 /* line 397, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: #222222;
+  background-color: #49220a;
   border-color: transparent;
 }
 /* line 401, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
@@ -6039,12 +6039,12 @@ tbody.collapse.in {
 }
 /* line 403, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #fff;
-  background-color: none;
+  color: #bb6b00;
+  background-color: transparent;
 }
 /* line 410, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
-  color: #fff;
+  color: #777;
 }
 /* line 415, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
@@ -6052,13 +6052,13 @@ tbody.collapse.in {
 }
 /* line 418, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #fff;
-  background-color: #090909;
+  color: #bb6b00;
+  background-color: transparent;
 }
 /* line 425, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #090909;
+  background-color: #1c0d04;
 }
 /* line 433, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
@@ -6067,11 +6067,11 @@ tbody.collapse.in {
 }
 /* line 442, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle {
-  border-color: transparent;
+  border-color: #1c0d04;
 }
 /* line 444, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #090909;
+  background-color: #1c0d04;
 }
 /* line 448, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
@@ -6084,7 +6084,7 @@ tbody.collapse.in {
 }
 /* line 462, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #090909;
+  background-color: #1c0d04;
   color: #fff;
 }
 @media (max-width: 767px) {
@@ -6094,13 +6094,13 @@ tbody.collapse.in {
   }
   /* line 475, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #fff;
-    background-color: #090909;
+    color: #bb6b00;
+    background-color: transparent;
   }
   /* line 482, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-color: #090909;
+    background-color: #1c0d04;
   }
   /* line 490, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -6114,7 +6114,7 @@ tbody.collapse.in {
 }
 /* line 508, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-link:hover {
-  color: #fff;
+  color: #bb6b00;
 }
 /* line 513, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .btn-link {
@@ -6122,7 +6122,7 @@ tbody.collapse.in {
 }
 /* line 515, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-  color: #fff;
+  color: #bb6b00;
 }
 /* line 521, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
@@ -6131,7 +6131,7 @@ tbody.collapse.in {
 
 /* line 531, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse {
-  background-color: #2780E3;
+  background-color: #bb6b00;
   border-color: transparent;
 }
 /* line 535, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
@@ -6140,8 +6140,8 @@ tbody.collapse.in {
 }
 /* line 537, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-  color: #fff;
-  background-color: none;
+  color: #49220a;
+  background-color: transparent;
 }
 /* line 544, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-text {
@@ -6153,26 +6153,26 @@ tbody.collapse.in {
 }
 /* line 552, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
-  background-color: #1967be;
+  color: #49220a;
+  background-color: transparent;
 }
 /* line 559, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #1967be;
+  background-color: #a25c00;
 }
 /* line 567, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
-  color: #fff;
+  color: #ccc;
   background-color: transparent;
 }
 /* line 577, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle {
-  border-color: transparent;
+  border-color: #884e00;
 }
 /* line 579, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #1967be;
+  background-color: #884e00;
 }
 /* line 583, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -6181,11 +6181,11 @@ tbody.collapse.in {
 /* line 588, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #1a6ecc;
+  border-color: #975700;
 }
 /* line 596, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #1967be;
+  background-color: #a25c00;
   color: #fff;
 }
 @media (max-width: 767px) {
@@ -6203,17 +6203,17 @@ tbody.collapse.in {
   }
   /* line 615, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #fff;
-    background-color: #1967be;
+    color: #49220a;
+    background-color: transparent;
   }
   /* line 622, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-color: #1967be;
+    background-color: #a25c00;
   }
   /* line 630, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #fff;
+    color: #ccc;
     background-color: transparent;
   }
 }
@@ -6223,7 +6223,7 @@ tbody.collapse.in {
 }
 /* line 643, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
-  color: #fff;
+  color: #49220a;
 }
 /* line 648, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link {
@@ -6231,11 +6231,11 @@ tbody.collapse.in {
 }
 /* line 650, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
-  color: #fff;
+  color: #49220a;
 }
 /* line 656, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
-  color: #fff;
+  color: #ccc;
 }
 
 /* line 6, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss */
@@ -6243,8 +6243,8 @@ tbody.collapse.in {
   padding: 8px 15px;
   margin-bottom: 21px;
   list-style: none;
-  background-color: #f5f5f5;
-  border-radius: 0;
+  background-color: #ecf0f1;
+  border-radius: 4px;
 }
 /* line 13, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss */
 .breadcrumb > li {
@@ -6258,7 +6258,7 @@ tbody.collapse.in {
 }
 /* line 23, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss */
 .breadcrumb > .active {
-  color: #999999;
+  color: #95a5a6;
 }
 
 /* line 4, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss */
@@ -6266,7 +6266,7 @@ tbody.collapse.in {
   display: inline-block;
   padding-left: 0;
   margin: 21px 0;
-  border-radius: 0;
+  border-radius: 4px;
 }
 /* line 10, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination > li {
@@ -6277,35 +6277,35 @@ tbody.collapse.in {
 .pagination > li > span {
   position: relative;
   float: left;
-  padding: 10px 18px;
+  padding: 10px 15px;
   line-height: 1.42857;
   text-decoration: none;
-  color: #2780E3;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  color: #fff;
+  background-color: #bb6b00;
+  border: 1px solid transparent;
   margin-left: -1px;
 }
 /* line 25, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
   margin-left: 0;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
 }
 /* line 32, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
 }
 /* line 41, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   z-index: 3;
-  color: #165ba8;
-  background-color: #e6e6e6;
-  border-color: #ddd;
+  color: #fff;
+  background-color: #6f3f00;
+  border-color: transparent;
 }
 /* line 52, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
@@ -6313,9 +6313,9 @@ tbody.collapse.in {
 .pagination > .active > span:hover,
 .pagination > .active > span:focus {
   z-index: 2;
-  color: #999999;
-  background-color: #f5f5f5;
-  border-color: #ddd;
+  color: #fff;
+  background-color: #6f3f00;
+  border-color: transparent;
   cursor: default;
 }
 /* line 64, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss */
@@ -6325,50 +6325,50 @@ tbody.collapse.in {
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
-  color: #999999;
-  background-color: #fff;
-  border-color: #ddd;
+  color: #ecf0f1;
+  background-color: #ff9609;
+  border-color: transparent;
   cursor: not-allowed;
 }
 
 /* line 5, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li > a,
 .pagination-lg > li > span {
-  padding: 18px 30px;
+  padding: 18px 27px;
   font-size: 19px;
   line-height: 1.33333;
 }
 /* line 12, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
 }
 /* line 18, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 /* line 5, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li > a,
 .pagination-sm > li > span {
-  padding: 5px 10px;
+  padding: 6px 9px;
   font-size: 13px;
   line-height: 1.5;
 }
 /* line 12, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
 }
 /* line 18, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:last-child > a,
 .pagination-sm > li:last-child > span {
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 /* line 6, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pager.scss */
@@ -6396,15 +6396,15 @@ tbody.collapse.in {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 0;
+  background-color: #bb6b00;
+  border: 1px solid transparent;
+  border-radius: 15px;
 }
 /* line 23, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pager.scss */
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #e6e6e6;
+  background-color: #6f3f00;
 }
 /* line 31, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_pager.scss */
 .pager .next > a,
@@ -6421,8 +6421,8 @@ tbody.collapse.in {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #999999;
-  background-color: #fff;
+  color: #fff;
+  background-color: #bb6b00;
   cursor: not-allowed;
 }
 
@@ -6458,56 +6458,56 @@ a.label:hover, a.label:focus {
 
 /* line 44, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss */
 .label-default {
-  background-color: #222222;
+  background-color: #95a5a6;
 }
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-default[href]:hover, .label-default[href]:focus {
-  background-color: #090909;
+  background-color: #798d8f;
 }
 
 /* line 48, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #2780E3;
+  background-color: #49220a;
 }
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #1967be;
+  background-color: #1c0d04;
 }
 
 /* line 52, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss */
 .label-success {
-  background-color: #3FB618;
+  background-color: #bb6b00;
 }
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-success[href]:hover, .label-success[href]:focus {
-  background-color: #2f8912;
+  background-color: #884e00;
 }
 
 /* line 56, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss */
 .label-info {
-  background-color: #9954BB;
+  background-color: #934b00;
 }
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-info[href]:hover, .label-info[href]:focus {
-  background-color: #7e3f9d;
+  background-color: #603100;
 }
 
 /* line 60, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss */
 .label-warning {
-  background-color: #FF7518;
+  background-color: #791205;
 }
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-warning[href]:hover, .label-warning[href]:focus {
-  background-color: #e45c00;
+  background-color: #480b03;
 }
 
 /* line 64, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss */
 .label-danger {
-  background-color: #FF0039;
+  background-color: #73473e;
 }
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-danger[href]:hover, .label-danger[href]:focus {
-  background-color: #cc002e;
+  background-color: #52332c;
 }
 
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss */
@@ -6522,7 +6522,7 @@ a.label:hover, a.label:focus {
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
-  background-color: #2780E3;
+  background-color: #49220a;
   border-radius: 10px;
 }
 /* line 22, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss */
@@ -6541,7 +6541,7 @@ a.label:hover, a.label:focus {
 }
 /* line 41, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss */
 .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #2780E3;
+  color: #49220a;
   background-color: #fff;
 }
 /* line 47, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss */
@@ -6570,7 +6570,7 @@ a.badge:hover, a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #e6e6e6;
+  background-color: #ecf0f1;
 }
 /* line 13, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron h1,
@@ -6585,11 +6585,11 @@ a.badge:hover, a.badge:focus {
 }
 /* line 24, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron > hr {
-  border-top-color: #cccccc;
+  border-top-color: #cfd9db;
 }
 /* line 28, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss */
 .container .jumbotron, .container-fluid .jumbotron {
-  border-radius: 0;
+  border-radius: 6px;
 }
 /* line 33, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss */
 .jumbotron .container {
@@ -6620,8 +6620,8 @@ a.badge:hover, a.badge:focus {
   margin-bottom: 21px;
   line-height: 1.42857;
   background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 0;
+  border: 1px solid #ecf0f1;
+  border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
@@ -6638,14 +6638,14 @@ a.badge:hover, a.badge:focus {
 /* line 27, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss */
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: #49220a;
 }
 
 /* line 34, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss */
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #2780E3;
+  border-color: #bb6b00;
 }
 
 /* line 9, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss */
@@ -6653,7 +6653,7 @@ a.thumbnail.active {
   padding: 15px;
   margin-bottom: 21px;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 4px;
 }
 /* line 16, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss */
 .alert h4 {
@@ -6690,13 +6690,13 @@ a.thumbnail.active {
 
 /* line 59, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-success {
-  background-color: #3FB618;
-  border-color: #4e9f15;
+  background-color: #bb6b00;
+  border-color: #bb6b00;
   color: #fff;
 }
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss */
 .alert-success hr {
-  border-top-color: #438912;
+  border-top-color: #a25c00;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss */
 .alert-success .alert-link {
@@ -6705,13 +6705,13 @@ a.thumbnail.active {
 
 /* line 63, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-info {
-  background-color: #9954BB;
-  border-color: #7643a8;
+  background-color: #934b00;
+  border-color: #934b00;
   color: #fff;
 }
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss */
 .alert-info hr {
-  border-top-color: #693c96;
+  border-top-color: #7a3e00;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss */
 .alert-info .alert-link {
@@ -6720,13 +6720,13 @@ a.thumbnail.active {
 
 /* line 67, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-warning {
-  background-color: #FF7518;
-  border-color: #ff4309;
+  background-color: #791205;
+  border-color: #791205;
   color: #fff;
 }
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss */
 .alert-warning hr {
-  border-top-color: #ee3800;
+  border-top-color: #610e04;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss */
 .alert-warning .alert-link {
@@ -6735,13 +6735,13 @@ a.thumbnail.active {
 
 /* line 71, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-danger {
-  background-color: #FF0039;
-  border-color: #f0005e;
+  background-color: #73473e;
+  border-color: #73473e;
   color: #fff;
 }
 /* line 8, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss */
 .alert-danger hr {
-  border-top-color: #d60054;
+  border-top-color: #623d35;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss */
 .alert-danger .alert-link {
@@ -6769,8 +6769,8 @@ a.thumbnail.active {
   overflow: hidden;
   height: 21px;
   margin-bottom: 21px;
-  background-color: #ccc;
-  border-radius: 0;
+  background-color: #ecf0f1;
+  border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -6784,7 +6784,7 @@ a.thumbnail.active {
   line-height: 21px;
   color: #fff;
   text-align: center;
-  background-color: #2780E3;
+  background-color: #49220a;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -6811,7 +6811,7 @@ a.thumbnail.active {
 
 /* line 73, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-success {
-  background-color: #3FB618;
+  background-color: #bb6b00;
 }
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
 .progress-striped .progress-bar-success {
@@ -6822,7 +6822,7 @@ a.thumbnail.active {
 
 /* line 77, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-info {
-  background-color: #9954BB;
+  background-color: #934b00;
 }
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
 .progress-striped .progress-bar-info {
@@ -6833,7 +6833,7 @@ a.thumbnail.active {
 
 /* line 81, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-warning {
-  background-color: #FF7518;
+  background-color: #791205;
 }
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
 .progress-striped .progress-bar-warning {
@@ -6844,7 +6844,7 @@ a.thumbnail.active {
 
 /* line 85, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-danger {
-  background-color: #FF0039;
+  background-color: #73473e;
 }
 /* line 7, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
 .progress-striped .progress-bar-danger {
@@ -6938,18 +6938,18 @@ a.thumbnail.active {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #ecf0f1;
 }
 /* line 31, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item:first-child {
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
 }
 /* line 34, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item:last-child {
   margin-bottom: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 /* line 46, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss */
@@ -6968,7 +6968,7 @@ button.list-group-item:hover,
 button.list-group-item:focus {
   text-decoration: none;
   color: #555;
-  background-color: #f5f5f5;
+  background-color: #ecf0f1;
 }
 
 /* line 63, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss */
@@ -6979,8 +6979,8 @@ button.list-group-item {
 
 /* line 70, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
-  background-color: #e6e6e6;
-  color: #999999;
+  background-color: #ecf0f1;
+  color: #b4bcc2;
   cursor: not-allowed;
 }
 /* line 78, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss */
@@ -6989,14 +6989,14 @@ button.list-group-item {
 }
 /* line 81, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text {
-  color: #999999;
+  color: #b4bcc2;
 }
 /* line 87, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #2780E3;
-  border-color: #ddd;
+  background-color: #49220a;
+  border-color: #49220a;
 }
 /* line 96, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active .list-group-item-heading,
@@ -7010,13 +7010,13 @@ button.list-group-item {
 }
 /* line 101, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-  color: #dceafa;
+  color: #e47b3b;
 }
 
 /* line 4, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-success {
   color: #fff;
-  background-color: #3FB618;
+  background-color: #bb6b00;
 }
 
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7034,7 +7034,7 @@ a.list-group-item-success:hover, a.list-group-item-success:focus,
 button.list-group-item-success:hover,
 button.list-group-item-success:focus {
   color: #fff;
-  background-color: #379f15;
+  background-color: #a25c00;
 }
 /* line 24, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 a.list-group-item-success.active, a.list-group-item-success.active:hover, a.list-group-item-success.active:focus,
@@ -7049,7 +7049,7 @@ button.list-group-item-success.active:focus {
 /* line 4, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-info {
   color: #fff;
-  background-color: #9954BB;
+  background-color: #934b00;
 }
 
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7067,7 +7067,7 @@ a.list-group-item-info:hover, a.list-group-item-info:focus,
 button.list-group-item-info:hover,
 button.list-group-item-info:focus {
   color: #fff;
-  background-color: #8d46b0;
+  background-color: #7a3e00;
 }
 /* line 24, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 a.list-group-item-info.active, a.list-group-item-info.active:hover, a.list-group-item-info.active:focus,
@@ -7082,7 +7082,7 @@ button.list-group-item-info.active:focus {
 /* line 4, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-warning {
   color: #fff;
-  background-color: #FF7518;
+  background-color: #791205;
 }
 
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7100,7 +7100,7 @@ a.list-group-item-warning:hover, a.list-group-item-warning:focus,
 button.list-group-item-warning:hover,
 button.list-group-item-warning:focus {
   color: #fff;
-  background-color: #fe6600;
+  background-color: #610e04;
 }
 /* line 24, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 a.list-group-item-warning.active, a.list-group-item-warning.active:hover, a.list-group-item-warning.active:focus,
@@ -7115,7 +7115,7 @@ button.list-group-item-warning.active:focus {
 /* line 4, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-danger {
   color: #fff;
-  background-color: #FF0039;
+  background-color: #73473e;
 }
 
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7133,7 +7133,7 @@ a.list-group-item-danger:hover, a.list-group-item-danger:focus,
 button.list-group-item-danger:hover,
 button.list-group-item-danger:focus {
   color: #fff;
-  background-color: #e60033;
+  background-color: #623d35;
 }
 /* line 24, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus,
@@ -7162,7 +7162,7 @@ button.list-group-item-danger.active:focus {
   margin-bottom: 21px;
   background-color: #fff;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -7185,8 +7185,8 @@ button.list-group-item-danger.active:focus {
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
-  border-top-right-radius: -1;
-  border-top-left-radius: -1;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 }
 /* line 27, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-heading > .dropdown .dropdown-toggle {
@@ -7212,10 +7212,10 @@ button.list-group-item-danger.active:focus {
 /* line 49, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-footer {
   padding: 10px 15px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #ddd;
-  border-bottom-right-radius: -1;
-  border-bottom-left-radius: -1;
+  background-color: #ecf0f1;
+  border-top: 1px solid #ecf0f1;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 /* line 63, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
@@ -7233,15 +7233,15 @@ button.list-group-item-danger.active:focus {
 .panel > .list-group:first-child .list-group-item:first-child,
 .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
   border-top: 0;
-  border-top-right-radius: -1;
-  border-top-left-radius: -1;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 }
 /* line 82, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .list-group:last-child .list-group-item:last-child,
 .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
   border-bottom: 0;
-  border-bottom-right-radius: -1;
-  border-bottom-left-radius: -1;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 /* line 89, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .panel-heading + .panel-collapse > .list-group .list-group-item:first-child {
@@ -7275,16 +7275,16 @@ button.list-group-item-danger.active:focus {
 /* line 121, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child,
 .panel > .table-responsive:first-child > .table:first-child {
-  border-top-right-radius: -1;
-  border-top-left-radius: -1;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 }
 /* line 127, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child,
 .panel > .table:first-child > tbody:first-child > tr:first-child,
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
-  border-top-left-radius: -1;
-  border-top-right-radius: -1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 /* line 131, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
@@ -7295,7 +7295,7 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
-  border-top-left-radius: -1;
+  border-top-left-radius: 3px;
 }
 /* line 135, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
@@ -7306,21 +7306,21 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
 .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
-  border-top-right-radius: -1;
+  border-top-right-radius: 3px;
 }
 /* line 143, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child,
 .panel > .table-responsive:last-child > .table:last-child {
-  border-bottom-right-radius: -1;
-  border-bottom-left-radius: -1;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 /* line 149, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child,
 .panel > .table:last-child > tfoot:last-child > tr:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
-  border-bottom-left-radius: -1;
-  border-bottom-right-radius: -1;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 /* line 153, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
@@ -7331,7 +7331,7 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
-  border-bottom-left-radius: -1;
+  border-bottom-left-radius: 3px;
 }
 /* line 157, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
@@ -7342,14 +7342,14 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
 .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
-  border-bottom-right-radius: -1;
+  border-bottom-right-radius: 3px;
 }
 /* line 164, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .panel-body + .table,
 .panel > .panel-body + .table-responsive,
 .panel > .table + .panel-body,
 .panel > .table-responsive + .panel-body {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ecf0f1;
 }
 /* line 170, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table > tbody:first-child > tr:first-child th,
@@ -7426,7 +7426,7 @@ button.list-group-item-danger.active:focus {
 /* line 226, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel {
   margin-bottom: 0;
-  border-radius: 0;
+  border-radius: 4px;
 }
 /* line 230, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel + .panel {
@@ -7439,7 +7439,7 @@ button.list-group-item-danger.active:focus {
 /* line 238, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel-heading + .panel-collapse > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #ecf0f1;
 }
 /* line 244, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel-footer {
@@ -7447,151 +7447,151 @@ button.list-group-item-danger.active:focus {
 }
 /* line 246, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel-footer + .panel-collapse .panel-body {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ecf0f1;
 }
 
 /* line 254, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-default {
-  border-color: #ddd;
+  border-color: #ecf0f1;
 }
 /* line 6, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading {
-  color: #333333;
-  background-color: #f5f5f5;
-  border-color: #ddd;
+  color: #49220a;
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #ddd;
+  border-top-color: #ecf0f1;
 }
 /* line 14, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-heading .badge {
-  color: #f5f5f5;
-  background-color: #333333;
+  color: #ecf0f1;
+  background-color: #49220a;
 }
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #ddd;
+  border-bottom-color: #ecf0f1;
 }
 
 /* line 257, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #2780E3;
+  border-color: #49220a;
 }
 /* line 6, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #2780E3;
-  border-color: #2780E3;
+  background-color: #49220a;
+  border-color: #49220a;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #2780E3;
+  border-top-color: #49220a;
 }
 /* line 14, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading .badge {
-  color: #2780E3;
+  color: #49220a;
   background-color: #fff;
 }
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #2780E3;
+  border-bottom-color: #49220a;
 }
 
 /* line 260, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-success {
-  border-color: #4e9f15;
+  border-color: #bb6b00;
 }
 /* line 6, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-success > .panel-heading {
   color: #fff;
-  background-color: #3FB618;
-  border-color: #4e9f15;
+  background-color: #bb6b00;
+  border-color: #bb6b00;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-success > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #4e9f15;
+  border-top-color: #bb6b00;
 }
 /* line 14, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-success > .panel-heading .badge {
-  color: #3FB618;
+  color: #bb6b00;
   background-color: #fff;
 }
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-success > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #4e9f15;
+  border-bottom-color: #bb6b00;
 }
 
 /* line 263, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-info {
-  border-color: #7643a8;
+  border-color: #934b00;
 }
 /* line 6, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-info > .panel-heading {
   color: #fff;
-  background-color: #9954BB;
-  border-color: #7643a8;
+  background-color: #934b00;
+  border-color: #934b00;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #7643a8;
+  border-top-color: #934b00;
 }
 /* line 14, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-info > .panel-heading .badge {
-  color: #9954BB;
+  color: #934b00;
   background-color: #fff;
 }
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-info > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #7643a8;
+  border-bottom-color: #934b00;
 }
 
 /* line 266, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-warning {
-  border-color: #ff4309;
+  border-color: #791205;
 }
 /* line 6, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-warning > .panel-heading {
   color: #fff;
-  background-color: #FF7518;
-  border-color: #ff4309;
+  background-color: #791205;
+  border-color: #791205;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-warning > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #ff4309;
+  border-top-color: #791205;
 }
 /* line 14, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-warning > .panel-heading .badge {
-  color: #FF7518;
+  color: #791205;
   background-color: #fff;
 }
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-warning > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #ff4309;
+  border-bottom-color: #791205;
 }
 
 /* line 269, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_panels.scss */
 .panel-danger {
-  border-color: #f0005e;
+  border-color: #73473e;
 }
 /* line 6, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-danger > .panel-heading {
   color: #fff;
-  background-color: #FF0039;
-  border-color: #f0005e;
+  background-color: #73473e;
+  border-color: #73473e;
 }
 /* line 11, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-danger > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #f0005e;
+  border-top-color: #73473e;
 }
 /* line 14, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-danger > .panel-heading .badge {
-  color: #FF0039;
+  color: #73473e;
   background-color: #fff;
 }
 /* line 20, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #f0005e;
+  border-bottom-color: #73473e;
 }
 
 /* line 5, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-embed.scss */
@@ -7632,9 +7632,9 @@ button.list-group-item-danger.active:focus {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  border-radius: 0;
+  background-color: #ecf0f1;
+  border: 1px solid transparent;
+  border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -7647,13 +7647,13 @@ button.list-group-item-danger.active:focus {
 /* line 22, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_wells.scss */
 .well-lg {
   padding: 24px;
-  border-radius: 0;
+  border-radius: 6px;
 }
 
 /* line 26, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_wells.scss */
 .well-sm {
   padding: 9px;
-  border-radius: 0;
+  border-radius: 3px;
 }
 
 /* line 6, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss */
@@ -7662,14 +7662,14 @@ button.list-group-item-danger.active:focus {
   font-size: 22.5px;
   font-weight: bold;
   line-height: 1;
-  color: #fff;
-  text-shadow: 0 1px 0 #fff;
+  color: #000;
+  text-shadow: none;
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
 /* line 15, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss */
 .close:hover, .close:focus {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   cursor: pointer;
   opacity: 0.5;
@@ -7740,8 +7740,8 @@ button.close {
   position: relative;
   background-color: #fff;
   border: 1px solid #999;
-  border: 1px solid transparent;
-  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
@@ -7860,7 +7860,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7912,7 +7912,7 @@ button.close {
   color: #fff;
   text-align: center;
   background-color: #000;
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 /* line 36, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss */
@@ -7998,7 +7998,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8018,7 +8018,7 @@ button.close {
   background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0;
+  border-radius: 6px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -8046,7 +8046,7 @@ button.close {
   font-size: 15px;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-  border-radius: -1 -1 0 0;
+  border-radius: 5px 5px 0 0;
 }
 
 /* line 42, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_popovers.scss */
@@ -8780,90 +8780,90 @@ body {
   max-width: 100px;
 }
 
-/* line 16 */
+/* line 15 */
 .alert {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 22 */
+/* line 21 */
 .book-item {
   height: 300px;
 }
 
-/* line 26 */
+/* line 25 */
 .transparent {
   background-color: transparent;
 }
 
-/* line 30 */
+/* line 29 */
 .navbar-transparent {
   background-color: transparent;
 }
 
-/* line 34 */
+/* line 33 */
 .home {
-  background: url("/static/library.jpg") no-repeat center center fixed;
+  background: url("/static/library-dark-50c.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 41 */
+/* line 40 */
 .home body {
   color: white;
 }
-/* line 44 */
+/* line 43 */
 .home .row {
   margin-top: 60px;
 }
-/* line 47 */
+/* line 46 */
 .home h1 {
   font-size: 50px;
   margin-bottom: 20px;
 }
-/* line 51 */
+/* line 50 */
 .home .social-buttons {
   margin-top: 30px;
 }
-/* line 54 */
+/* line 53 */
 .home .back-to-home {
   margin-top: 50px;
   color: white;
   font-size: 14px;
   display: inline-block;
 }
-/* line 60 */
+/* line 59 */
 .home .fb_iframe_widget {
   display: block;
   transform: scale(1.4);
   margin-top: 15px;
 }
 
-/* line 67 */
+/* line 66 */
 strong {
   font-weight: 400;
 }
 
-/* line 71 */
+/* line 70 */
 .row {
   margin-bottom: 45px;
   margin-top: 30px;
 }
 
-/* line 78 */
+/* line 77 */
 a.navbar-brand {
   padding-top: 18px;
   text-decoration: none;
 }
 
-/* line 83 */
+/* line 82 */
 .navbar-brand > img {
   width: 60px;
   display: inline-block;
 }
 
-/* line 88 */
+/* line 87 */
 a.navbar-brand .logo-text {
   font-size: 30px;
   top: 6px;

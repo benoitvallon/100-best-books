@@ -2,7 +2,7 @@
 {% block content %}
   <div class="row text-center">
     <div class="col-md-8 col-md-offset-2">
-      <h1>How long would it take you to read the best 100 books of all times?</h1>
+      <h1> <strong>How long </strong> would it take to  <strong>read the 100 Best Books </strong> of all times?</h1>
     </div>
     <div class="col-md-4 col-md-offset-4">
     <form action="{{ url_for('home') }}" method="post">
@@ -11,7 +11,7 @@
         <input type="text" name="number-of-pages" class="form-control input-lg" placeholder="...">
       </div>
 
-      <button type="submit" value="NumberOfPages" class="btn btn-primary">Submit</button>
+      <button type="submit" value="NumberOfPages" class="btn btn-success">Submit</button>
     </form>
   </div>
 {% endblock %}
