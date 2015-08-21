@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html class="{% if home == True %}home{% endif %}" lang="en">
   <head>
-    <title>Browse the 100 Best Books of all times</title>
+    <title>The 100 Best Books of all times</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <meta property="og:title" content="How long would it take you to read the 100 Best Books of all times?" />
+    <meta property="og:site_name" content="The 100 Best Books of all times"/>
+    <meta property="og:url" content="http://www.100bestbooks.xyz" />
+    <meta property="og:description" content="Find out how long would it take you to read the 100 Best Books of all times. This list is composed of the 100 Best Books of all times defined by the Bokklubben library. It contains books from every period of times and various nationalities." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ url_for('static', filename='library-dark-0.jpg') }}" />
+    <meta property="og:locale" content="en_US" />
 
     {% if config['ENVIRONMENT'] == 'development' %}
       {% assets "scss_all" %}
