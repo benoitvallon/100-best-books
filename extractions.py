@@ -24,6 +24,9 @@ def extractFromCsv():
       'author': line[1].decode('utf8'),
       'link': '',
       'pages': line[6].decode('utf8'),
+      'year': line[3].decode('utf8'),
+      'country': line[4].decode('utf8'),
+      'language': line[5].decode('utf8'),
       'imageLink': 'images/' + line[7].decode('utf8')
     }
     if line[7]:
@@ -31,13 +34,13 @@ def extractFromCsv():
 
     books.append(book)
 
-  flash('%d book(s) have been extracted from the .csv file' % len(books))
+  flash('%d book(s) have been extracted from the .csv file' % len(books), 'success')
 
   formattedJson = json.dumps(books, sort_keys=True, indent=2, separators=(',', ': '))
   # Open/close a file
-  # fileOpen = open("books.json", "w")
-  # fileData = fileOpen.write(formattedJson)
-  # fileOpen.close()
+  fileOpen = open("books.json", "w")
+  fileData = fileOpen.write(formattedJson)
+  fileOpen.close()
 
   return render_template('list.html', books= books)
 
