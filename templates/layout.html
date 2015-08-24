@@ -13,6 +13,7 @@
     <meta property="og:image" content="http://www.100bestbooks.xyz{{ url_for('static', filename='library-dark-0.jpg') }}" />
     <meta property="og:locale" content="en_US" />
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     {% if config['ENVIRONMENT'] == 'development' %}
       {% assets "scss_all" %}
         <link rel=stylesheet type=text/css href="{{ ASSET_URL }}">

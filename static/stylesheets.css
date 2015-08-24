@@ -1,11 +1,11 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
 /* line 9, /D1/web/users/benoit/100-best-books/static/lib/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -8770,28 +8770,44 @@ button.close {
     display: none !important;
   }
 }
-/* line 7 */
+/* line 1, /D1/web/users/benoit/100-best-books/static/about.scss */
+.social-icons {
+  font-size: 50px;
+  margin-top: 20px;
+}
+/* line 5, /D1/web/users/benoit/100-best-books/static/about.scss */
+.social-icons a {
+  color: #49220a;
+  text-decoration: none;
+}
+/* line 9, /D1/web/users/benoit/100-best-books/static/about.scss */
+.social-icons a :hover {
+  color: #bb6b00;
+  text-decoration: none;
+}
+
+/* line 10 */
 body {
   margin-top: 100px;
 }
 
-/* line 11 */
+/* line 14 */
 .alert {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 16 */
+/* line 19 */
 .transparent {
   background-color: transparent;
 }
 
-/* line 20 */
+/* line 23 */
 .navbar-transparent {
   background-color: transparent;
 }
 
-/* line 24 */
+/* line 27 */
 .home {
   background: url("/static/library-dark-50c.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8799,61 +8815,61 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 31 */
+/* line 34 */
 .home body {
   color: white;
 }
-/* line 34 */
+/* line 37 */
 .home .row {
   margin-top: 60px;
 }
-/* line 37 */
+/* line 40 */
 .home h1 {
   font-size: 50px;
   margin-bottom: 20px;
 }
-/* line 41 */
+/* line 44 */
 .home .social-buttons {
   margin-top: 30px;
 }
-/* line 44 */
+/* line 47 */
 .home .back-to-home {
   margin-top: 50px;
   color: white;
   font-size: 14px;
   display: inline-block;
 }
-/* line 50 */
+/* line 53 */
 .home .fb_iframe_widget {
   display: block;
   transform: scale(1.4);
   margin-top: 15px;
 }
 
-/* line 57 */
+/* line 60 */
 strong {
   font-weight: 400;
 }
 
-/* line 61 */
+/* line 64 */
 .row {
   margin-bottom: 45px;
   margin-top: 30px;
 }
 
-/* line 68 */
+/* line 71 */
 a.navbar-brand {
   padding-top: 18px;
   text-decoration: none;
 }
 
-/* line 73 */
+/* line 76 */
 .navbar-brand > img {
   width: 60px;
   display: inline-block;
 }
 
-/* line 78 */
+/* line 81 */
 a.navbar-brand .logo-text {
   font-size: 30px;
   top: 6px;
@@ -8863,12 +8879,12 @@ a.navbar-brand .logo-text {
   font-weight: 100;
 }
 
-/* line 87 */
+/* line 90 */
 .book-item {
   padding: 15px;
 }
 
-/* line 91 */
+/* line 94 */
 .card {
   border: 1px solid #934b00;
   display: table;
@@ -8876,11 +8892,11 @@ a.navbar-brand .logo-text {
   width: 100%;
   height: 450px;
 }
-/* line 98 */
+/* line 101 */
 .card .title {
   margin-bottom: 18px;
 }
-/* line 102 */
+/* line 105 */
 .card .cover {
   height: 200px;
 }

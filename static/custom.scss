@@ -1,8 +1,11 @@
+// import fonts
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+
 // import variables to build bootstrap theme
 @import 'variables';
 @import 'lib/bootstrap-sass/assets/stylesheets/bootstrap';
 
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+@import 'about';
 
 body {
   margin-top: 100px;

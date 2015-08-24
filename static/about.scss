@@ -1,0 +1,14 @@
+.social-icons {
+  font-size: 50px;
+  margin-top: 20px;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    :hover {
+      color: $link-hover-color;
+      text-decoration: none;
+    }
+  }
+}
