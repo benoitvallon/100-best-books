@@ -8,18 +8,9 @@ body {
   margin-top: 100px;
 }
 
-.cover-image {
-  max-width: 100px;
-}
-
 .alert {
   margin-bottom: 20px;
   margin-top: 20px;
-}
-
-
-.book-item {
-  height: 300px;
 }
 
 .transparent {
@@ -91,4 +82,24 @@ a.navbar-brand .logo-text {
   left: 12px;
   color: white;
   font-weight: 100;
+}
+
+.book-item {
+  padding: 15px;
+}
+
+.card {
+  border: 1px solid #934b00;
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  height: 450px;
+
+  .title {
+    margin-bottom: 18px;
+  }
+
+  .cover {
+    height: 200px;
+  }
 }

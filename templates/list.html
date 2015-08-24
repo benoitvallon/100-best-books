@@ -3,15 +3,14 @@
   <div class="row text-center">
     <h1>Book list</h1>
     {% for book in books %}
-      <div class="col-md-3 book-item">
-        <div>
-          {{ book.title }} - {{ book.author }}
-          <a href="{{ book.link }}" target="_blank"><span class="glyphicon glyphicon-education" aria-hidden="true"></span></a>
+      <div class="col-md-4 book-item">
+        <div class="card">
+          <h2 class="title"><a href="{{ book.link }}" target="_blank">{{ book.title }}</a></h2>
+          <img src="{{ url_for('static', filename=book.imageLink) }}" class="cover">
+          <h3 class="author">{{ book.author }}</h3>
+          <p>Pages: {{ book.pages }}, Year: {{ book.year }}<br>
+          Country: {{ book.country }} - Language: {{ book.language }}</p>
         </div>
-        <div>
-          {{ book.description }}
-        </div>
-        <img src="{{ url_for('static', filename=book.imageLink) }}" class="cover-image">
       </div>
     {% endfor %}
   </div>

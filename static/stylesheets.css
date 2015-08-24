@@ -8776,32 +8776,22 @@ body {
 }
 
 /* line 11 */
-.cover-image {
-  max-width: 100px;
-}
-
-/* line 15 */
 .alert {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 21 */
-.book-item {
-  height: 300px;
-}
-
-/* line 25 */
+/* line 16 */
 .transparent {
   background-color: transparent;
 }
 
-/* line 29 */
+/* line 20 */
 .navbar-transparent {
   background-color: transparent;
 }
 
-/* line 33 */
+/* line 24 */
 .home {
   background: url("/static/library-dark-50c.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8809,61 +8799,61 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 40 */
+/* line 31 */
 .home body {
   color: white;
 }
-/* line 43 */
+/* line 34 */
 .home .row {
   margin-top: 60px;
 }
-/* line 46 */
+/* line 37 */
 .home h1 {
   font-size: 50px;
   margin-bottom: 20px;
 }
-/* line 50 */
+/* line 41 */
 .home .social-buttons {
   margin-top: 30px;
 }
-/* line 53 */
+/* line 44 */
 .home .back-to-home {
   margin-top: 50px;
   color: white;
   font-size: 14px;
   display: inline-block;
 }
-/* line 59 */
+/* line 50 */
 .home .fb_iframe_widget {
   display: block;
   transform: scale(1.4);
   margin-top: 15px;
 }
 
-/* line 66 */
+/* line 57 */
 strong {
   font-weight: 400;
 }
 
-/* line 70 */
+/* line 61 */
 .row {
   margin-bottom: 45px;
   margin-top: 30px;
 }
 
-/* line 77 */
+/* line 68 */
 a.navbar-brand {
   padding-top: 18px;
   text-decoration: none;
 }
 
-/* line 82 */
+/* line 73 */
 .navbar-brand > img {
   width: 60px;
   display: inline-block;
 }
 
-/* line 87 */
+/* line 78 */
 a.navbar-brand .logo-text {
   font-size: 30px;
   top: 6px;
@@ -8871,4 +8861,26 @@ a.navbar-brand .logo-text {
   left: 12px;
   color: white;
   font-weight: 100;
+}
+
+/* line 87 */
+.book-item {
+  padding: 15px;
+}
+
+/* line 91 */
+.card {
+  border: 1px solid #934b00;
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  height: 450px;
+}
+/* line 98 */
+.card .title {
+  margin-bottom: 18px;
+}
+/* line 102 */
+.card .cover {
+  height: 200px;
 }
