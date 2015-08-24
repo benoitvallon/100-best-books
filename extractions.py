@@ -23,8 +23,8 @@ def extractFromCsv():
       'title': line[0].decode('utf8'),
       'author': line[1].decode('utf8'),
       'link': '',
-      'pages': line[6].decode('utf8'),
-      'year': line[3].decode('utf8'),
+      'pages': int(line[6].decode('utf8')),
+      'year': int(line[3].decode('utf8')),
       'country': line[4].decode('utf8'),
       'language': line[5].decode('utf8'),
       'imageLink': 'images/' + line[7].decode('utf8')
