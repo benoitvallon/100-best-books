@@ -3,9 +3,8 @@ from flask.ext.assets import Environment, Bundle
 import pudb
 import urllib2
 import json
-# import datetime
+from operator import itemgetter
 from datetime import datetime, date, time, timedelta
-# from datetime import date
 from login import login_routes
 from extractions import extractions_routes
 
@@ -68,7 +67,19 @@ def list():
 
   books = json.loads(fileData)
 
-  return render_template('list.html', books= books)
+  isReversedOrder = False;
+  orderBy = request.args.get('order')
+
+  if orderBy:
+    isReversedOrder = orderBy[0] == "-"
+    if isReversedOrder:
+      orderBy = orderBy[1:]
+
+    books = sorted(books, key=itemgetter(orderBy), reverse=isReversedOrder)
+
+  print(isReversedOrder)
+
+  return render_template('list.html', books= books, isReversedOrder=isReversedOrder)
 
 @app.route('/whatisit')
 def whatisit():

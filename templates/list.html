@@ -2,6 +2,19 @@
 {% block content %}
   <div class="row text-center">
     <h1>Book list</h1>
+    <a class="btn btn-primary" href="/list?order={% if not isReversedOrder %}-{% endif %}year">
+      Sort by year
+    </a>
+    <a class="btn btn-primary" href="/list?order={% if not isReversedOrder %}-{% endif %}pages">
+      Sort by # of pages
+    </a>
+    <a class="btn btn-primary" href="/list?order={% if not isReversedOrder %}-{% endif %}country">
+      Sort by country
+    </a>
+    <a class="btn btn-primary" href="/list?order={% if not isReversedOrder %}-{% endif %}language">
+      Sort by language
+    </a>
+    <div>
     {% for book in books %}
       <div class="col-md-4 book-item">
         <div class="card">
@@ -13,5 +26,6 @@
         </div>
       </div>
     {% endfor %}
+    </div>
   </div>
 {% endblock %}
