@@ -29,7 +29,7 @@ def home():
   home = True
 
   if request.method == 'GET':
-    number_of_days_to_end = request.args.get('days')
+    number_of_days_to_end = request.args.get('days') or 0
 
     return render_template('home.html', home= home,
         number_of_days_to_end= number_of_days_to_end)

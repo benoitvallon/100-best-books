@@ -7,7 +7,7 @@
 
     <meta property="og:title" content="How long would it take you to read the 100 Best Books of all time?" />
 
-    {% if number_of_days_to_end > 0 %}
+    {% if number_of_days_to_end and number_of_days_to_end > 0 %}
       <meta property="og:site_name" content="It would take me {{ number_of_days_to_end }} days to read the 100 Best Books of all time. Wanna know how long it would take for you too!"/>
     {% else %}
       <meta property="og:site_name" content="The 100 Best Books of all time"/>
