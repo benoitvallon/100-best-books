@@ -85,6 +85,39 @@ def list():
 def whatisit():
   return render_template('whatisit.html')
 
+@app.route('/funstats')
+def funstats():
+
+  # Open/close a file
+  fileOpen = open("books.json", "r")
+  fileData = fileOpen.read()
+  fileOpen.close()
+
+  books = json.loads(fileData)
+
+  isolatedAuthors = {}
+  for book in books:
+    print(book['author'])
+    if book['author'] in isolatedAuthors.keys():
+      isolatedAuthors[book['author']] += 1
+    else:
+      isolatedAuthors[book['author']] = 1
+
+  # clean unknow authors
+  unknowAuthorString = "Unknown"
+  if unknowAuthorString in isolatedAuthors:
+    del isolatedAuthors[unknowAuthorString]
+
+  authors = []
+  for key, value in isolatedAuthors.items():
+    author = { "name": key, "numberOfBooks": value }
+    authors.append(author)
+
+  authors = sorted(authors, key=itemgetter('numberOfBooks'), reverse=True)
+  print authors
+
+  return render_template('funstats.html', authors=authors)
+
 @app.route('/about')
 def about():
   return render_template('about.html')

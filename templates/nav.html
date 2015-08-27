@@ -19,6 +19,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="{{ url_for('list') }}">List of books</a></li>
+        <li><a href="{{ url_for('funstats') }}">Fun stats</a></li>
         <li><a href="{{ url_for('whatisit') }}">Who did this list?</a></li>
         <li><a href="{{ url_for('about') }}">About</a></li>
         {% if session.logged_in %}

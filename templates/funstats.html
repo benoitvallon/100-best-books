@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="row text-center">
+    <div class="col-md-6 col-md-offset-3">
+      <h1>Some fun statistics</h1>
+
+      <h3>The most listed authors are...</h3>
+
+      <table class="table table-hover table-condensed text-left">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Author name</th>
+            <th>Number of books in the list</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for author in authors %}
+            {% if author.numberOfBooks > 1 %}
+            <tr>
+              <th scope="row">{{loop.index}}</th>
+              <td>{{ author.name }}</td>
+              <td>{{ author.numberOfBooks }}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+{% endblock %}
