@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 
-    <meta property="og:title" content="How long would it take you to read the 100 Best Books of all time?" />
-
     {% if number_of_days_to_end and number_of_days_to_end > 0 %}
-      <meta property="og:site_name" content="It would take me {{ number_of_days_to_end }} days to read the 100 Best Books of all time. Wanna know how long it would take for you too!"/>
+      <meta property="og:title" content="It would take me {{ number_of_days_to_end }} days to read the 100 Best Books of all time. Wanna know how long it would take for you too!"/>
     {% else %}
-      <meta property="og:site_name" content="The 100 Best Books of all time"/>
+      <meta property="og:title" content="How long would it take you to read the 100 Best Books of all time?"/>
     {% endif %}
 
-    <meta property="og:url" content="http://www.100bestbooks.xyz" />
+    {% if number_of_days_to_end and number_of_days_to_end > 0 %}
+      <meta property="og:url" content="http://www.100bestbooks.xyz/days/{{ number_of_days_to_end }}" />
+    {% else %}
+      <meta property="og:url" content="http://www.100bestbooks.xyz" />
+    {% endif %}
+    <meta property="og:site_name" content="The 100 Best Books of all time"/>
     <meta property="og:description" content="Find out how long would it take you to read the 100 Best Books of all time. This list is composed of the 100 Best Books of all time defined by the Bokklubben library. It contains books from every period of times and various nationalities." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.100bestbooks.xyz{{ url_for('static', filename='library-dark-0.jpg') }}" />

@@ -23,13 +23,13 @@ assets.register('scss_all', scss)
 js = Bundle('lib/jquery/dist/jquery.js', 'lib/bootstrap-sass/assets/javascripts/bootstrap.min.js', 'custom.js', filters='jsmin', output='javascripts.js')
 assets.register('js_all', js)
 
-
-@app.route('/', methods=['GET', 'POST'])
-def home():
+@app.route('/', methods=['GET', 'POST'], defaults={'daysnumber': 0})
+@app.route('/days/<daysnumber>')
+def home(daysnumber=None):
   home = True
 
   if request.method == 'GET':
-    number_of_days_to_end = request.args.get('days') or 0
+    number_of_days_to_end = daysnumber
 
     return render_template('home.html', home= home,
         number_of_days_to_end= number_of_days_to_end)
