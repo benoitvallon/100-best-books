@@ -80,8 +80,6 @@ def list():
 
     books = sorted(books, key=itemgetter(orderBy), reverse=isReversedOrder)
 
-  print(isReversedOrder)
-
   return render_template('list.html', books= books, isReversedOrder=isReversedOrder)
 
 @app.route('/whatisit')
@@ -100,7 +98,6 @@ def funstats():
 
   isolatedAuthors = {}
   for book in books:
-    print(book['author'])
     if book['author'] in isolatedAuthors.keys():
       isolatedAuthors[book['author']] += 1
     else:
@@ -117,7 +114,6 @@ def funstats():
     authors.append(author)
 
   authors = sorted(authors, key=itemgetter('numberOfBooks'), reverse=True)
-  print authors
 
   return render_template('funstats.html', authors=authors)
 
