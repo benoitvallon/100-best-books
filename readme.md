@@ -1,7 +1,7 @@
 # 100-best-books
 ==========================
 
-An website to play with the 100 best classical books of all times.
+An website to play with the 100 best classical books of all time.
 
 # Configuration
 

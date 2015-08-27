@@ -5,7 +5,7 @@
   "authors": [
     "Benoit VALLON <benoitvallon@gmail.com>"
   ],
-  "description": "An website to play with the 100 best classical books of all times",
+  "description": "An website to play with the 100 best classical books of all time",
   "license": "MIT",
   "ignore": [
     "**/.*",
