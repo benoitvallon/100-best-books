@@ -28,16 +28,19 @@ assets.register('js_all', js)
 def home():
   home = True
 
-  # Open/close a file
-  fileOpen = open("books.json", "r")
-  fileData = fileOpen.read()
-  fileOpen.close()
-
-  books = json.loads(fileData)
-
   if request.method == 'GET':
-    return render_template('home.html', books= books, home= home)
+    number_of_days_to_end = request.args.get('days')
+
+    return render_template('home.html', home= home,
+        number_of_days_to_end= number_of_days_to_end)
   else:
+    # Open/close a file
+    fileOpen = open("books.json", "r")
+    fileData = fileOpen.read()
+    fileOpen.close()
+
+    books = json.loads(fileData)
+
     if not request.form['number-of-pages'].isdigit():
       flash('Please enter a real number ;)', 'danger')
       return redirect(url_for('home'))
@@ -52,7 +55,7 @@ def home():
     today = datetime.now()
     finished_date = today + timedelta(days=number_of_days_to_end)
 
-    tweeter_message = urllib2.quote('It would take me ' + str(number_of_days_to_end) + ' days to read the 100 Best Books of all time. Wanna know how long it would take you too!!' .encode('UTF-8'))
+    tweeter_message = urllib2.quote('It would take me ' + str(number_of_days_to_end) + ' days to read the 100 Best Books of all time. Wanna know how long it would take for you too!' .encode('UTF-8'))
 
     return render_template('home-result.html', home= home,
         pages_read_per_day= pages_read_per_day, tweeter_message= tweeter_message,
