@@ -7,7 +7,7 @@ from operator import itemgetter
 from datetime import datetime, date, time, timedelta
 from login import login_routes
 from extractions import extractions_routes
-from filters import orderByMostAuthors, orderByMostLanguages
+from filters import orderByMost
 
 app = Flask(__name__)
 app.config.from_object('settings')
@@ -96,8 +96,8 @@ def funstats():
 
   books = json.loads(fileData)
 
-  authors = orderByMostAuthors(books)
-  languages = orderByMostLanguages(books)
+  authors = orderByMost('author', books)
+  languages = orderByMost('language', books)
 
   return render_template('funstats.html', authors=authors, languages=languages)
 

@@ -1,45 +1,23 @@
 from operator import itemgetter
 
-def orderByMostAuthors(books):
-  isolatedAuthors = {}
+def orderByMost(filterString, books):
+  isolatedElements = {}
   for book in books:
-    if book['author'] in isolatedAuthors.keys():
-      isolatedAuthors[book['author']] += 1
+    if book[filterString] in isolatedElements.keys():
+      isolatedElements[book[filterString]] += 1
     else:
-      isolatedAuthors[book['author']] = 1
+      isolatedElements[book[filterString]] = 1
 
-  # clean unknow authors
-  unknowAuthorString = "Unknown"
-  if unknowAuthorString in isolatedAuthors:
-    del isolatedAuthors[unknowAuthorString]
+  # clean unknow elements
+  unknowElementString = "Unknown"
+  if unknowElementString in isolatedElements:
+    del isolatedElements[unknowElementString]
 
-  authors = []
-  for key, value in isolatedAuthors.items():
-    author = { "name": key, "numberOfBooks": value }
-    authors.append(author)
+  elements = []
+  for key, value in isolatedElements.items():
+    element = { "name": key, "numberOfBooks": value }
+    elements.append(element)
 
-  authors = sorted(authors, key=itemgetter('numberOfBooks'), reverse=True)
+  elements = sorted(elements, key=itemgetter('numberOfBooks'), reverse=True)
 
-  return authors
-
-def orderByMostLanguages(books):
-  isolatedLanguages = {}
-  for book in books:
-    if book['language'] in isolatedLanguages.keys():
-      isolatedLanguages[book['language']] += 1
-    else:
-      isolatedLanguages[book['language']] = 1
-
-  # clean unknow languages
-  unknowLanguageString = "Unknown"
-  if unknowLanguageString in isolatedLanguages:
-    del isolatedLanguages[unknowLanguageString]
-
-  languages = []
-  for key, value in isolatedLanguages.items():
-    language = { "name": key, "numberOfBooks": value }
-    languages.append(language)
-
-  languages = sorted(languages, key=itemgetter('numberOfBooks'), reverse=True)
-
-  return languages
+  return elements
