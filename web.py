@@ -7,6 +7,7 @@ from operator import itemgetter
 from datetime import datetime, date, time, timedelta
 from login import login_routes
 from extractions import extractions_routes
+from filters import orderByMostAuthors, orderByMostLanguages
 
 app = Flask(__name__)
 app.config.from_object('settings')
@@ -88,7 +89,6 @@ def whatisit():
 
 @app.route('/funstats')
 def funstats():
-
   # Open/close a file
   fileOpen = open("books.json", "r")
   fileData = fileOpen.read()
@@ -96,26 +96,10 @@ def funstats():
 
   books = json.loads(fileData)
 
-  isolatedAuthors = {}
-  for book in books:
-    if book['author'] in isolatedAuthors.keys():
-      isolatedAuthors[book['author']] += 1
-    else:
-      isolatedAuthors[book['author']] = 1
+  authors = orderByMostAuthors(books)
+  languages = orderByMostLanguages(books)
 
-  # clean unknow authors
-  unknowAuthorString = "Unknown"
-  if unknowAuthorString in isolatedAuthors:
-    del isolatedAuthors[unknowAuthorString]
-
-  authors = []
-  for key, value in isolatedAuthors.items():
-    author = { "name": key, "numberOfBooks": value }
-    authors.append(author)
-
-  authors = sorted(authors, key=itemgetter('numberOfBooks'), reverse=True)
-
-  return render_template('funstats.html', authors=authors)
+  return render_template('funstats.html', authors=authors, languages=languages)
 
 @app.route('/about')
 def about():

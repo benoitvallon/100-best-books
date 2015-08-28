@@ -27,6 +27,29 @@
         </tbody>
       </table>
 
+      <h3>The most used languages are...</h3>
+
+      <table class="table table-hover table-condensed text-left">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Language</th>
+            <th>Number of books in the list</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for language in languages %}
+            {% if language.numberOfBooks > 1 %}
+            <tr>
+              <th scope="row">{{loop.index}}</th>
+              <td>{{ language.name }}</td>
+              <td>{{ language.numberOfBooks }}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+
     </div>
   </div>
 {% endblock %}
