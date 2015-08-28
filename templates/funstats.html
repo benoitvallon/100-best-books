@@ -73,6 +73,29 @@
         </tbody>
       </table>
 
+      <h3>The most prolific years are...</h3>
+
+      <table class="table table-hover table-condensed text-left">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Year</th>
+            <th>Number of books in the list</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for year in years %}
+            {% if year.numberOfBooks > 1 %}
+            <tr>
+              <th scope="row">{{loop.index}}</th>
+              <td>{{ year.name }}</td>
+              <td>{{ year.numberOfBooks }}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+
     </div>
   </div>
 {% endblock %}

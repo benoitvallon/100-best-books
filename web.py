@@ -99,8 +99,10 @@ def funstats():
   authors = orderByMost('author', books)
   languages = orderByMost('language', books)
   countries = orderByMost('country', books)
+  years = orderByMost('year', books)
 
-  return render_template('funstats.html', authors=authors, languages=languages, countries=countries)
+  return render_template('funstats.html', authors=authors, languages=languages,
+      countries=countries, years=years)
 
 @app.route('/about')
 def about():
