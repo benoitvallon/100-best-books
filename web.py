@@ -48,6 +48,10 @@ def home(daysnumber=None):
 
     pages_read_per_day = int(request.form['number-of-pages'])
 
+    if pages_read_per_day == 0:
+      flash('It will take you forever, please enter a real number ;)', 'danger')
+      return redirect(url_for('home'))
+
     total_number_of_pages = 0
     for book in books:
       total_number_of_pages = total_number_of_pages + int(book['pages'])
