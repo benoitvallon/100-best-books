@@ -8832,7 +8832,7 @@ body {
 }
 /* line 46 */
 .home .fb_iframe_widget {
-  display: block;
+  display: inline-block;
   transform: scale(1.4);
   margin-top: 15px;
 }
@@ -8850,32 +8850,37 @@ strong {
 
 /* line 62 */
 .btn-space {
-  margin: 0 1px 5px 0;
+  margin: 0 1px 4px 0;
 }
 
-/* line 70 */
+/* line 68 */
+.navbar {
+  transition: background .3s;
+}
+
+/* line 74 */
 .navbar-visible .navbar-transparent {
   background-color: #49220a;
 }
 
-/* line 75 */
+/* line 79 */
 .navbar-transparent {
   background-color: transparent;
 }
 
-/* line 81 */
+/* line 85 */
 a.navbar-brand {
   padding-top: 18px;
   text-decoration: none;
 }
 
-/* line 86 */
+/* line 90 */
 .navbar-brand > img {
   width: 60px;
   display: inline-block;
 }
 
-/* line 91 */
+/* line 95 */
 a.navbar-brand .logo-text {
   font-size: 30px;
   top: 6px;
@@ -8885,12 +8890,12 @@ a.navbar-brand .logo-text {
   font-weight: 100;
 }
 
-/* line 100 */
+/* line 104 */
 .book-item {
   padding: 15px;
 }
 
-/* line 104 */
+/* line 108 */
 .card {
   border: 1px solid #934b00;
   display: table;
@@ -8898,22 +8903,22 @@ a.navbar-brand .logo-text {
   width: 100%;
   height: 450px;
 }
-/* line 111 */
+/* line 115 */
 .card .title {
   margin-bottom: 18px;
 }
-/* line 115 */
+/* line 119 */
 .card .cover {
   height: 200px;
 }
 
 @media (max-width: 767px) {
-  /* line 121 */
+  /* line 125 */
   .home h1 {
     font-size: 40px;
   }
 
-  /* line 124 */
+  /* line 128 */
   a.navbar-brand .logo-text {
     font-size: 22px;
   }
