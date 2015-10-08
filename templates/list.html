@@ -19,7 +19,9 @@
       <div class="col-md-4 book-item">
         <div class="card">
           <h2 class="title"><a href="{{ book.link }}">{{ book.title }}</a></h2>
-          <img src="{{ url_for('static', filename=book.imageLink) }}" class="cover">
+          <a href="{{ book.link }}">
+            <img src="{{ url_for('static', filename=book.imageLink) }}" class="cover">
+          </a>
           <h3 class="author">{{ book.author }}</h3>
           <p>Pages: {{ book.pages }}, Year: {{ book.year }}<br>
           Country: {{ book.country }} - Language: {{ book.language }}</p>
