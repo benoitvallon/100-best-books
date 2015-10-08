@@ -18,7 +18,7 @@
     {% for book in books %}
       <div class="col-md-4 book-item">
         <div class="card">
-          <h2 class="title"><a href="{{ book.link }}" target="_blank">{{ book.title }}</a></h2>
+          <h2 class="title"><a href="{{ book.link }}">{{ book.title }}</a></h2>
           <img src="{{ url_for('static', filename=book.imageLink) }}" class="cover">
           <h3 class="author">{{ book.author }}</h3>
           <p>Pages: {{ book.pages }}, Year: {{ book.year }}<br>
