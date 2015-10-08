@@ -2,16 +2,16 @@
 {% block content %}
   <div class="row text-center">
     <h1>Book list</h1>
-    <a class="btn btn-primary" href="/list?order={% if not isReversedOrder %}-{% endif %}year">
+    <a class="btn btn-primary btn-space" href="/list?order={% if not isReversedOrder %}-{% endif %}year">
       Sort by year
     </a>
-    <a class="btn btn-primary" href="/list?order={% if not isReversedOrder %}-{% endif %}pages">
+    <a class="btn btn-primary btn-space" href="/list?order={% if not isReversedOrder %}-{% endif %}pages">
       Sort by # of pages
     </a>
-    <a class="btn btn-primary" href="/list?order={% if not isReversedOrder %}-{% endif %}country">
+    <a class="btn btn-primary btn-space" href="/list?order={% if not isReversedOrder %}-{% endif %}country">
       Sort by country
     </a>
-    <a class="btn btn-primary" href="/list?order={% if not isReversedOrder %}-{% endif %}language">
+    <a class="btn btn-primary btn-space" href="/list?order={% if not isReversedOrder %}-{% endif %}language">
       Sort by language
     </a>
     <div>
