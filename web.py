@@ -33,7 +33,7 @@ def home(daysnumber=None):
     number_of_days_to_end = daysnumber
 
     return render_template('home.html', home= home,
-        number_of_days_to_end= number_of_days_to_end)
+        number_of_days_to_end = number_of_days_to_end)
   else:
     # Open/close a file
     fileOpen = open("books.json", "r")
