@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
 
   $(window).scroll(function () {
-    var heightLimit = 100,
+    var heightLimit = 10,
         height = $(window).scrollTop();
         navbarCollapsed = $('.navbar-collapse.in').length;
 
