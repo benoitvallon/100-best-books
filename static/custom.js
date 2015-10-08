@@ -16,18 +16,18 @@ $(document).ready(function() {
       $('.navbar').addClass('navbar-transparent');
     }
   });
-});
 
-$(window).scroll(function () {
-  var heightLimit = 100,
-      height = $(window).scrollTop();
-      navbarCollapsed = $('.navbar-collapse.in').length;
+  $(window).scroll(function () {
+    var heightLimit = 100,
+        height = $(window).scrollTop();
+        navbarCollapsed = $('.navbar-collapse.in').length;
 
-  if(!navbarCollapsed) {
-    if(height > heightLimit) {
-      $('.navbar').removeClass('navbar-transparent');
-    } else {
-      $('.navbar').addClass('navbar-transparent');
+    if(!navbarCollapsed) {
+      if(height > heightLimit) {
+        $('.navbar').removeClass('navbar-transparent');
+      } else {
+        $('.navbar').addClass('navbar-transparent');
+      }
     }
-  }
+  });
 });
