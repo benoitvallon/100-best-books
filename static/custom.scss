@@ -8,20 +8,13 @@
 @import 'about';
 
 body {
+  background-color: transparent;
   margin-top: 100px;
 }
 
 .alert {
   margin-bottom: 20px;
   margin-top: 20px;
-}
-
-.transparent {
-  background-color: transparent;
-}
-
-.navbar-transparent {
-  background-color: transparent;
 }
 
 .home {
@@ -66,6 +59,20 @@ strong {
   margin-top: 30px;
 }
 
+
+// Navbar transparency mecanism
+
+.navbar-visible {
+  // if the navbar is visible than the transparency must be overwritten
+  .navbar-transparent {
+    background-color: $brand-primary;
+  }
+}
+
+.navbar-transparent {
+  background-color: transparent;
+}
+
 // navbar and brand logo
 
 a.navbar-brand {
@@ -92,7 +99,7 @@ a.navbar-brand .logo-text {
 }
 
 .card {
-  border: 1px solid #934b00;
+  border: 1px solid $brand-info;
   display: table;
   vertical-align: middle;
   width: 100%;
@@ -104,5 +111,14 @@ a.navbar-brand .logo-text {
 
   .cover {
     height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home h1 {
+    font-size: 40px;
+  }
+  a.navbar-brand .logo-text {
+    font-size: 22px;
   }
 }

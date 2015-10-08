@@ -8788,26 +8788,17 @@ button.close {
 
 /* line 10 */
 body {
+  background-color: transparent;
   margin-top: 100px;
 }
 
-/* line 14 */
+/* line 15 */
 .alert {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-/* line 19 */
-.transparent {
-  background-color: transparent;
-}
-
-/* line 23 */
-.navbar-transparent {
-  background-color: transparent;
-}
-
-/* line 27 */
+/* line 20 */
 .home {
   background: url("/static/library-dark-50c.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8815,61 +8806,71 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
-/* line 34 */
+/* line 27 */
 .home body {
   color: white;
 }
-/* line 37 */
+/* line 30 */
 .home .row {
   margin-top: 60px;
 }
-/* line 40 */
+/* line 33 */
 .home h1 {
   font-size: 50px;
   margin-bottom: 20px;
 }
-/* line 44 */
+/* line 37 */
 .home .social-buttons {
   margin-top: 30px;
 }
-/* line 47 */
+/* line 40 */
 .home .back-to-home {
   margin-top: 50px;
   color: white;
   font-size: 14px;
   display: inline-block;
 }
-/* line 53 */
+/* line 46 */
 .home .fb_iframe_widget {
   display: block;
   transform: scale(1.4);
   margin-top: 15px;
 }
 
-/* line 60 */
+/* line 53 */
 strong {
   font-weight: 400;
 }
 
-/* line 64 */
+/* line 57 */
 .row {
   margin-bottom: 45px;
   margin-top: 30px;
 }
 
-/* line 71 */
+/* line 67 */
+.navbar-visible .navbar-transparent {
+  background-color: #49220a;
+}
+
+/* line 72 */
+.navbar-transparent {
+  background-color: transparent;
+}
+
+/* line 78 */
 a.navbar-brand {
   padding-top: 18px;
   text-decoration: none;
 }
 
-/* line 76 */
+/* line 83 */
 .navbar-brand > img {
   width: 60px;
   display: inline-block;
 }
 
-/* line 81 */
+/* line 88 */
 a.navbar-brand .logo-text {
   font-size: 30px;
   top: 6px;
@@ -8879,12 +8880,12 @@ a.navbar-brand .logo-text {
   font-weight: 100;
 }
 
-/* line 90 */
+/* line 97 */
 .book-item {
   padding: 15px;
 }
 
-/* line 94 */
+/* line 101 */
 .card {
   border: 1px solid #934b00;
   display: table;
@@ -8892,11 +8893,23 @@ a.navbar-brand .logo-text {
   width: 100%;
   height: 450px;
 }
-/* line 101 */
+/* line 108 */
 .card .title {
   margin-bottom: 18px;
 }
-/* line 105 */
+/* line 112 */
 .card .cover {
   height: 200px;
+}
+
+@media (max-width: 767px) {
+  /* line 118 */
+  .home h1 {
+    font-size: 40px;
+  }
+
+  /* line 121 */
+  a.navbar-brand .logo-text {
+    font-size: 22px;
+  }
 }
