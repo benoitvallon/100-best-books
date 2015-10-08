@@ -65,6 +65,10 @@ strong {
 
 // Navbar transparency mecanism
 
+.navbar {
+  transition: background .3s;
+}
+
 .navbar-visible {
   // if the navbar is visible than the transparency must be overwritten
   .navbar-transparent {
