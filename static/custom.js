@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#bs-example-navbar-collapse-1').on('show.bs.collapse', function () {
-    var heightLimit = 10,
+    var heightLimit = 30,
         height = $(window).scrollTop();
 
     if(height <= heightLimit) {
@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
 
   $('#bs-example-navbar-collapse-1').on('hide.bs.collapse', function () {
-    var heightLimit = 10,
+    var heightLimit = 30,
         height = $(window).scrollTop();
 
     if(height <= heightLimit) {
@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
 
   $(window).scroll(function () {
-    var heightLimit = 10,
+    var heightLimit = 30,
         height = $(window).scrollTop();
         navbarCollapsed = $('.navbar-collapse.in').length;
 
