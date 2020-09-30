@@ -1,7 +1,7 @@
 # 100-best-books
 ==========================
 
-An website to play with the 100 best classical books of all time.
+An amazing website to play with the 100 best classical books of all time.
 
 # Configuration
 
@@ -27,7 +27,7 @@ You can switch the `ENVIRONMENT` form `development` to `production` variable dep
 
 # Installation
 
-This project project depends on some libraries, so you must install them via bower before running it.
+This project project depends on some of the libraries, so you must install them via broswer before running it.
 
 ```shell
 bower install
